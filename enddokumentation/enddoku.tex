@@ -52,6 +52,20 @@ Die Folgenden Punkte muss die Software Erfüllen.
 	\item Die Software muss in LabView geschrieben werden.
 \end{itemize}
 \section{Umsetzung}
+\subsection{Verwendete Tools}
+Für die Entwicklung wurde folgende Software verwendet:
+\begin{itemize}
+	\item LabView 2014SP1 (Version 14.0.1f3 32bit)
+	\item OpenGDS v1.0.37(32 bit)
+	\item OpenG v4.0.1.9(32 bit)
+	\item MySQL ODBC 5.2.6(32bit)
+	\item MySQL ODBC 5.2.6(64bit)
+	\item MySQL Server 5.7.14
+	\item MySQL Workbench 6.3.6
+\end{itemize}
+\subsubsection{LabView}
+LabView ist eine graphische Programiersprache, welche von National Instruments entwickelt wird. Da sie Objektorientiertes programmieren nur unzulässig unterstützt, mussten an einigen orten mit einer anderen Art und Weise angegangen werden, wie man es sich gewohnt ist. Zudem sind LabView programme nicht sonderlich schnell, weshalb es viele Verschiedene Tasks gibt.
+Eine weitere Sonderheit ist die Verknüpfung von GUIs mit dem Programm, das Programm ist stark mit dem GUI verknüpft, welches Vor- wie auch Nachteile bietet.
 \subsection{Bestehende Software}
 Im Rahmen eines Umzuges der Testabteilung, wurden die Brandräume neu gebaut. Während des Baus wurde zudem die veraltete Software, welche für die Alten Brandräume erstellt wurde. Die neu erstellte Software, welche unter dem Namen Fire Test Commander fortan nur noch FTC, wurde mit LabView erstellt. Diese Software hat schon viele Ansätze, welche für die im Rahmen dieses Projektes zu implementierendes Programm angewandt und übernommen werden können.
 Der FTC bietet schon eine Struktur, um mit möglichst geringen aufwand Hardwarekomponenten hinzuzufügen (Siehe Figure \ref{fig:SystemViewFTC}). Diese Struktur, dient zudem gleich als Vorlage für die neu zu entwickelnde Software.
@@ -61,17 +75,19 @@ Der FTC bietet schon eine Struktur, um mit möglichst geringen aufwand Hardwarek
 	\caption{Systemview des Fire Test Commander}
 	\label{fig:SystemViewFTC}
 \end{figure}
-
+Aufgrund der Sonderheiten von LabView wurde die Software mit vielen verschiedenen Task ausgestattet. So ist jede GUI komponente, welche auf dem Hauptprogramm aufrufbar ist ein eigener Thread. Die Gui Komponenten werden in den Entsprechenden Zeitpunken dynamisch in der Hauptkomponente als Subkomponenten geladen.
 \subsection{Bestehende Datenbank}
 Die Bestehende Datenbank des FTC ist sehr komplex und beinhaltet sogar eine Rechteverteilung. Da die neue Software um einiges Schlanker wird und auch nicht eine solch komplexe Struktur der Datenbank verlangt, werden nur teile der Bestehenden Datenbank entnommen, welche mit der Hardwareabstraktion zu tun hat. Dies gewährleisted, dass die Komponente, welche übernommen wird ohne Probleme weiterhin funktioniert. 
 \subsection{Software Architektur}
-Dies System grobstruktur ist von der bestehenden FTC Applikation übernommen worden und Sieht wie folgt aus (siehe Figure \ref{fig:SystemViewUDA}). Es soll im Vergleich zur FTC Applikation jedoch keine Hardware abstraktion mehr implementiert werden, da diese Schon vollkommen übernommen werden kann.
+Die System Grobstruktur ist von der bestehenden FTC Applikation übernommen worden und Sieht wie folgt aus (siehe Figure \ref{fig:SystemViewUDA}). Es soll im Vergleich zur FTC Applikation jedoch keine Hardware Abstraktion mehr implementiert werden, da diese übernommen werden kann.
 \begin{figure}[htbp] 
 	\centering
 	\includegraphics[width=0.7\textwidth]{Systemview}
 	\caption{Systemview der UDA}
 	\label{fig:SystemViewUDA}
 \end{figure}
+\subsubsection{LabView Tasks}
+LabView
 \subsubsection{Recorder}
 \subsubsection{GUI / Tasks}
 \subsubsection{Objek}
