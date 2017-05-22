@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.1)  22 MAY 2017 12:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.1)  22 MAY 2017 15:52
 entering extended mode
 **./enddoku.tex
 (enddoku.tex
@@ -543,44 +543,44 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 
-{C:/Users/z003019u/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/Users/z003019u/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
 Overfull \hbox (2.4888pt too wide) in paragraph at lines 15--16
 \OT1/cmr/m/n/10 der medi-zinis-cher Gerate wie Com-put-er-to-mo-graphen und Ma
 g-ne-tres-o-nanz-to-mo-graphen
  []
 
-[2]
+[3]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 35.
  (D:\Program\MiKTeX\tex\latex\base\omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
- [3]
-<SystemviewFTC.png, id=16, 585.68813pt x 293.59688pt>
-File: SystemviewFTC.png Graphic file (type png)
- <use SystemviewFTC.png>
-Package pdftex.def Info: SystemviewFTC.png used on input line 71.
-(pdftex.def)             Requested size: 261.40857pt x 131.04666pt.
-
-Overfull \hbox (7.3637pt too wide) in paragraph at lines 67--75
+ [4]
+Overfull \hbox (7.3637pt too wide) in paragraph at lines 70--71
 \OT1/cmr/m/n/10 Wahrend des Baus wurde zu-dem die ve-r-al-tete Soft-ware, welc
 he fur die Al-ten Brandraume
  []
 
+[5] <SystemviewFTC.png, id=22, 585.68813pt x 293.59688pt>
+File: SystemviewFTC.png Graphic file (type png)
 
-Overfull \hbox (3.97368pt too wide) in paragraph at lines 77--78
+<use SystemviewFTC.png>
+Package pdftex.def Info: SystemviewFTC.png used on input line 76.
+(pdftex.def)             Requested size: 261.40857pt x 131.04666pt.
+
+Overfull \hbox (3.97368pt too wide) in paragraph at lines 83--84
 \OT1/cmr/m/n/10 Die Beste-hende Daten-bank des FTC ist sehr kom-plex und bein-h
 al-tet sogar eine Rechtev-
  []
 
-[4 <./SystemviewFTC.png>] <Systemview.png, id=22, 585.68813pt x 293.59688pt>
+<Systemview.png, id=24, 585.68813pt x 293.59688pt>
 File: Systemview.png Graphic file (type png)
-
-<use Systemview.png>
-Package pdftex.def Info: Systemview.png used on input line 82.
+ <use Systemview.png>
+Package pdftex.def Info: Systemview.png used on input line 88.
 (pdftex.def)             Requested size: 261.40857pt x 131.04666pt.
- [5 <./Systemview.png>] [6] (enddoku.aux) ) 
+
+[6 <./SystemviewFTC.png>] [7 <./Systemview.png>] (enddoku.aux) ) 
 Here is how much of TeX's memory you used:
  3701 strings out of 493328
  61707 string characters out of 3143452
@@ -589,14 +589,14 @@ Here is how much of TeX's memory you used:
  6342 words of font info for 23 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,6n,51p,8847b,225s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/Program/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmbx10.pfb><D:/Program/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb><D:/Program/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/Program/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb>
-Output written on enddoku.pdf (6 pages, 153262 bytes).
+<D:/Program/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Program/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb><D:/Program/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+r12.pfb><D:/Program/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/Prog
+ram/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on enddoku.pdf (7 pages, 154846 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
+ 51 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

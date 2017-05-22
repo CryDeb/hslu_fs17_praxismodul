@@ -68,6 +68,8 @@ LabView ist eine graphische Programiersprache, welche von National Instruments e
 Eine weitere Sonderheit ist die Verknüpfung von GUIs mit dem Programm, das Programm ist stark mit dem GUI verknüpft, welches Vor- wie auch Nachteile bietet.
 \subsection{Bestehende Software}
 Im Rahmen eines Umzuges der Testabteilung, wurden die Brandräume neu gebaut. Während des Baus wurde zudem die veraltete Software, welche für die Alten Brandräume erstellt wurde. Die neu erstellte Software, welche unter dem Namen Fire Test Commander fortan nur noch FTC, wurde mit LabView erstellt. Diese Software hat schon viele Ansätze, welche für die im Rahmen dieses Projektes zu implementierendes Programm angewandt und übernommen werden können.
+
+\newpage
 Der FTC bietet schon eine Struktur, um mit möglichst geringen aufwand Hardwarekomponenten hinzuzufügen (Siehe Figure \ref{fig:SystemViewFTC}). Diese Struktur, dient zudem gleich als Vorlage für die neu zu entwickelnde Software.
 \begin{figure}[htbp] 
 	\centering
@@ -75,7 +77,8 @@ Der FTC bietet schon eine Struktur, um mit möglichst geringen aufwand Hardwarek
 	\caption{Systemview des Fire Test Commander}
 	\label{fig:SystemViewFTC}
 \end{figure}
-Aufgrund der Sonderheiten von LabView wurde die Software mit vielen verschiedenen Task ausgestattet. So ist jede GUI komponente, welche auf dem Hauptprogramm aufrufbar ist ein eigener Thread. Die Gui Komponenten werden in den Entsprechenden Zeitpunken dynamisch in der Hauptkomponente als Subkomponenten geladen.
+Aufgrund der Sonderheiten von LabView wurde die Software mit vielen verschiedenen Task ausgestattet. So ist jede GUI komponente, welche auf dem Hauptprogramm aufrufbar ist ein eigener Thread. Die Gui Komponenten werden zur entsprechenden Zeit dynamisch in der Hauptkomponente als Subkomponenten geladen. Diese Komplexe Thread Struktur wird im Folgenden Bild dargestellt.
+
 \subsection{Bestehende Datenbank}
 Die Bestehende Datenbank des FTC ist sehr komplex und beinhaltet sogar eine Rechteverteilung. Da die neue Software um einiges Schlanker wird und auch nicht eine solch komplexe Struktur der Datenbank verlangt, werden nur teile der Bestehenden Datenbank entnommen, welche mit der Hardwareabstraktion zu tun hat. Dies gewährleisted, dass die Komponente, welche übernommen wird ohne Probleme weiterhin funktioniert. 
 \subsection{Software Architektur}
