@@ -9,22 +9,15 @@
 \contentsline {section}{\numberline {3}Umsetzung}{4}
 \contentsline {subsection}{\numberline {3.1}Verwendete Tools}{4}
 \contentsline {subsubsection}{\numberline {3.1.1}LabView}{4}
-\contentsline {subsection}{\numberline {3.2}Software}{5}
-\contentsline {subsubsection}{\numberline {3.2.1}Bestehende Software}{5}
+\contentsline {subsection}{\numberline {3.2}Software}{4}
+\contentsline {subsubsection}{\numberline {3.2.1}Bestehende Software}{4}
 \contentsline {subsubsection}{\numberline {3.2.2}Systemgrenzen}{6}
 \contentsline {subsubsection}{\numberline {3.2.3}Komponente UDA}{6}
 \contentsline {subsection}{\numberline {3.3}Datenbank}{8}
 \contentsline {subsubsection}{\numberline {3.3.1}Bestehende Datenbank}{8}
 \contentsline {subsubsection}{\numberline {3.3.2}Datenbank}{8}
-\contentsline {subsection}{\numberline {3.4}Software Architektur}{9}
-\contentsline {subsubsection}{\numberline {3.4.1}LabView Tasks}{9}
-\contentsline {subsubsection}{\numberline {3.4.2}Recorder}{10}
-\contentsline {subsubsection}{\numberline {3.4.3}GUI / Tasks}{10}
-\contentsline {subsubsection}{\numberline {3.4.4}Objek}{10}
-\contentsline {subsection}{\numberline {3.5}Datenbank}{10}
-\contentsline {subsubsection}{\numberline {3.5.1}Datenbank-Classen}{10}
-\contentsline {subsection}{\numberline {3.6}Testing}{10}
-\contentsline {section}{\numberline {4}Projektergebnisse}{10}
-\contentsline {section}{\numberline {5}Arbeitsjournal}{10}
-\contentsline {section}{\numberline {6}Fazit}{10}
+\contentsline {subsubsection}{\numberline {3.3.3}Recorder}{9}
+\contentsline {section}{\numberline {4}Projektergebnis}{9}
+\contentsline {section}{\numberline {5}Arbeitsjournal}{9}
+\contentsline {section}{\numberline {6}Fazit}{9}
 \contentsline {section}{\numberline {7}Best\IeC {\"a}tigung Arbeitgeber}{10}
