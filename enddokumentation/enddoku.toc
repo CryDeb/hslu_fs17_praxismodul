@@ -9,15 +9,15 @@
 \contentsline {section}{\numberline {3}Umsetzung}{4}
 \contentsline {subsection}{\numberline {3.1}Verwendete Tools}{4}
 \contentsline {subsubsection}{\numberline {3.1.1}LabView}{4}
-\contentsline {subsection}{\numberline {3.2}Software}{4}
-\contentsline {subsubsection}{\numberline {3.2.1}Bestehende Software}{4}
-\contentsline {subsubsection}{\numberline {3.2.2}Systemgrenzen}{6}
+\contentsline {subsection}{\numberline {3.2}Software}{5}
+\contentsline {subsubsection}{\numberline {3.2.1}Bestehende Software}{5}
+\contentsline {subsubsection}{\numberline {3.2.2}Systemgrenzen}{5}
 \contentsline {subsubsection}{\numberline {3.2.3}Komponente UDA}{6}
-\contentsline {subsection}{\numberline {3.3}Datenbank}{8}
-\contentsline {subsubsection}{\numberline {3.3.1}Bestehende Datenbank}{8}
-\contentsline {subsubsection}{\numberline {3.3.2}Datenbank}{8}
-\contentsline {subsubsection}{\numberline {3.3.3}Recorder}{9}
-\contentsline {section}{\numberline {4}Projektergebnis}{9}
-\contentsline {section}{\numberline {5}Arbeitsjournal}{9}
-\contentsline {section}{\numberline {6}Fazit}{9}
-\contentsline {section}{\numberline {7}Best\IeC {\"a}tigung Arbeitgeber}{10}
+\contentsline {subsubsection}{\numberline {3.2.4}Data Preparation \& Recorder}{7}
+\contentsline {subsection}{\numberline {3.3}Datenbank}{7}
+\contentsline {subsubsection}{\numberline {3.3.1}Bestehende Datenbank}{7}
+\contentsline {subsubsection}{\numberline {3.3.2}Datenbank}{7}
+\contentsline {section}{\numberline {4}Projektergebnis}{8}
+\contentsline {section}{\numberline {5}Arbeitsjournal}{8}
+\contentsline {section}{\numberline {6}Fazit}{8}
+\contentsline {section}{\numberline {7}Best\IeC {\"a}tigung Arbeitgeber}{9}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.4.20)  24 MAY 2017 00:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.5.24)  24 MAY 2017 01:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -556,100 +556,110 @@ Mag-ne-tres-o-nanz-to-mo-graphen
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 34.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 32.
 
 (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
  [3]
 <LabVIEWExample.png, id=17, 407.27156pt x 280.79906pt>
 File: LabVIEWExample.png Graphic file (type png)
 
 <use LabVIEWExample.png>
-Package pdftex.def Info: LabVIEWExample.png used on input line 73.
-(pdftex.def)             Requested size: 234.09232pt x 161.40164pt.
+Package pdftex.def Info: LabVIEWExample.png used on input line 66.
+(pdftex.def)             Requested size: 224.06775pt x 154.48709pt.
 
-Overfull \hbox (7.3637pt too wide) in paragraph at lines 79--80
+Underfull \hbox (badness 3838) in paragraph at lines 71--76
+[]\OT1/cmr/m/n/10 LabView ist eine graphis-che
+ []
+
+
+Underfull \hbox (badness 6526) in paragraph at lines 71--76
+\OT1/cmr/m/n/10 welche Virtuelle In-stru-mente
+ []
+
+
+Underfull \hbox (badness 3690) in paragraph at lines 71--76
+\OT1/cmr/m/n/10 finden ist (Siehe Fig-ure 1[]).
+ []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 71--76
+\OT1/cmr/m/n/10 Zu-dem un-terst^^?utzt Lab-VIEW
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 71--76
+\OT1/cmr/m/n/10 Wegen diesem Um-stand, der
+ []
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 71--76
+\OT1/cmr/m/n/10 man-gel-nden Ob-jek-to-ri-en-tierter
+ []
+
+
+Overfull \hbox (7.3637pt too wide) in paragraph at lines 80--81
 \OT1/cmr/m/n/10 W^^?ahrend des Baus wurde zu-dem die ve-r-al-tete Soft-ware, we
 lche f^^?ur die Al-ten Brandr^^?aume
  []
 
-<SystemviewFTC.png, id=19, 585.68813pt x 293.59688pt>
+[4 <./LabVIEWExample.png>]
+<SystemviewFTC.png, id=23, 585.68813pt x 293.59688pt>
 File: SystemviewFTC.png Graphic file (type png)
  <use SystemviewFTC.png>
-Package pdftex.def Info: SystemviewFTC.png used on input line 84.
-(pdftex.def)             Requested size: 261.40857pt x 131.04666pt.
+Package pdftex.def Info: SystemviewFTC.png used on input line 85.
+(pdftex.def)             Requested size: 186.72122pt x 93.599pt.
 
-<Systemgrenzen.png, id=20, 405.01312pt x 385.44pt>
+<Systemgrenzen.png, id=24, 405.01312pt x 385.44pt>
 File: Systemgrenzen.png Graphic file (type png)
  <use Systemgrenzen.png>
-Package pdftex.def Info: Systemgrenzen.png used on input line 93.
-(pdftex.def)             Requested size: 205.39449pt x 195.47198pt.
+Package pdftex.def Info: Systemgrenzen.png used on input line 94.
+(pdftex.def)             Requested size: 130.70714pt x 124.3902pt.
 
-[4] [5 <./LabVIEWExample.png> <./SystemviewFTC.png>]
-Overfull \hbox (11.53035pt too wide) in paragraph at lines 105--107
+[5 <./SystemviewFTC.png> <./Systemgrenzen.png>]
+Overfull \hbox (11.53035pt too wide) in paragraph at lines 106--108
 \OT1/cmr/m/n/10 Haupt-pro-grammes wie auch diejeni-gen der Subpanel-Vis senden 
 Mes-sages an die Message-
  []
 
 
-Overfull \hbox (8.55829pt too wide) in paragraph at lines 105--107
+Overfull \hbox (8.55829pt too wide) in paragraph at lines 106--108
 \OT1/cmr/m/n/10 Queue der Ve-r-ar-beitungstask im Haupt-pro-gramm (In der Ab-bi
 l-dung mit gr^^?unen durchge-
  []
 
-[6 <./Systemgrenzen.png>] <filterVI.png, id=32, 225.09094pt x 150.5625pt>
+<filterVI.png, id=29, 225.09094pt x 150.5625pt>
 File: filterVI.png Graphic file (type png)
-
-<use filterVI.png>
-Package pdftex.def Info: filterVI.png used on input line 113.
+ <use filterVI.png>
+Package pdftex.def Info: filterVI.png used on input line 114.
 (pdftex.def)             Requested size: 149.3747pt x 99.92062pt.
 
-Underfull \hbox (badness 1400) in paragraph at lines 118--120
+Underfull \hbox (badness 1400) in paragraph at lines 119--121
 [][]\OT1/cmr/m/n/10 Die Im Bild 5[] dargestell-ten Pfeile
  []
 
-<Laufzeitansicht.png, id=33, 307.90031pt x 214.55156pt>
+<Laufzeitansicht.png, id=30, 307.90031pt x 214.55156pt>
 File: Laufzeitansicht.png Graphic file (type png)
 
 <use Laufzeitansicht.png>
-Package pdftex.def Info: Laufzeitansicht.png used on input line 123.
+Package pdftex.def Info: Laufzeitansicht.png used on input line 124.
 (pdftex.def)             Requested size: 336.09593pt x 234.21667pt.
- [7 <./filterVI.png> <./Laufzeitansicht.png>]
-<DBSchemaUDA.png, id=39, 563.85657pt x 815.29594pt>
+ [6 <./filterVI.png>]
+<DBSchemaUDA.png, id=35, 563.85657pt x 815.29594pt>
 File: DBSchemaUDA.png Graphic file (type png)
  <use DBSchemaUDA.png>
-Package pdftex.def Info: DBSchemaUDA.png used on input line 135.
-(pdftex.def)             Requested size: 186.72122pt x 269.98152pt.
+Package pdftex.def Info: DBSchemaUDA.png used on input line 138.
+(pdftex.def)             Requested size: 149.3747pt x 215.97775pt.
 
-[8 <./DBSchemaUDA.png>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.149 \begin{array}{ccc}
-                        
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.160 \end{array}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[9] (./enddoku.bbl
+[7 <./Laufzeitansicht.png>] [8 <./DBSchemaUDA.png>] (./enddoku.bbl
 
 LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
                before end of `thebibliography' environment on input line 3.
 
-) [10] (./enddoku.aux) ) 
+) [9] (./enddoku.aux) ) 
 Here is how much of TeX's memory you used:
  3807 strings out of 493013
  63245 string characters out of 6139317
@@ -657,17 +667,16 @@ Here is how much of TeX's memory you used:
  7316 multiletter control sequences out of 15000+600000
  6342 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,7n,51p,8845b,229s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb>
-Output written on enddoku.pdf (10 pages, 254407 bytes).
+ 48i,6n,51p,8845b,227s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+bx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb>
+Output written on enddoku.pdf (9 pages, 246052 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 64 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

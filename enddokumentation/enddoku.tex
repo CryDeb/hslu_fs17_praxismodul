@@ -19,14 +19,12 @@ verschiedener Apparaturen und Testaufbauten getestet. Dies geschieht bei vielen 
 Dazu soll eine Software entwickelt werden, die aus verschiedenen Ressourcen (verschiedenen
 Datenquellen) die Daten sammelt und diese in eine auswertbare Excel-Datei exportiert. Dies
 Software basiert auf einer bestehenden Software, welche für das Brandlabor entwickelt wurde.
-Es sollen dabei Bestandteile der dieser Bestehenden Software verwendet werden.
-Es sind also folgende Ziele zu erfüllen:
+Es sollen dabei Bestandteile dieser Bestehenden Software verwendet werden.
 \subsection{Problembeschreibung}
 \subsection{Projektziele}
-Siemens Building Technologies ist unter anderem ein Produkthersteller im Bereich Brandschutz. Dazu gehört die Herstellung verschiedener Brandmelder. Um sich der Qualität jener Brandmelder gewiss sein zu können, werden diese in verschiedenen eigens erstellten Testanlagen getestet. Sie werden getestet, um auch sicherzustellen das die Brandmelder bei der jeweiligen Zertifizierungsstelle durchkommen. Bei einem Solchen Testdurchlauf werden alle Daten der jeweiligen Brandmelder aufgezeichnet und anschliessend ausgewertet.\newline
-Es gibt eine grosse Variation dieser Testanlagen. Bei den grösseren Testaufbauten wurden eigene Software erstellt, welche auch zur Automation genutzt werden.Es gibt jedoch auch einige etwas kleinere Testaufbauten, bei welcher keine Software vorhanden ist, welche die zu sammelnden Daten aufzeichnet. Es wird momentan bei jeder dieser Anlagen auf eine umständliche Art und Weise getestet.
-Dies stellt eines der Probleme dar. Dieser Umstand führt auf einen erhöhten Zeitaufwand. Zudem kommt bei manchen Aufbauten dazu, dass sie selten gebraucht werden. Der fehlende Zyklische Gebrauch der jener Aufbauten führt zu einer erhöhten Einarbeitungsperiode.
-Weiter kommt ein neuer Standard für einen bestehenden Brandmelder hinzu. Dieser neue Standard führte dazu, dass die Testabteilung der Siemens einen neuen Testaufbau bei der Firma XYZ bestellte. Im Rahmen der Bestellung wurde jedoch nur der Aufbau bestellt, keine Passende Software, welche alle Daten während eines Testlaufes aufzeichnen könnte. Für diesen Zweck gilt es eine Software zu entwickeln. 
+.Bei vielen kleinen Aufbauten ist keine Software vorhanden ist, oder nur teilweise vorhanden, welche die zu sammelnden Daten zusammenträgt. Dieser mangel an Software führt dazu, dass nur auf umständliche art und weise getestet werden kann. Dies stellt eines der Probleme dar. Dieser Umstand führt auf einen erhöhten Zeitaufwand bei einem Testdurchlauf, da alle Daten manuell zusammengetragen werden müssen. Zudem kommt bei manchen Aufbauten dazu, dass sie selten gebraucht werden. Der fehlende Zyklische Gebrauch jener Aufbauten führt zu einer erhöhten Einarbeitungsperiode. Diese Einarbeitungsperiode sowie der Erhöte Zeitaufwand für einen Testdurchlauf soll durch eine vereinheitlichung beseitigt werden. Dazu soll die Software an möglichst allen Aufbauten eingesetzt werden können, welche keine eigene Spezielle Software besitzten.
+
+Hinzu kommt eine anpassung eines UL-Standardes für einen bestehenden Brandmelder. Dieser neue Standard führte dazu, dass die Testabteilung der Siemens einen neuen Testaufbau bestellte. Im Rahmen der Bestellung wurde jedoch nur die Apparatur zum Testen bestellt, keine Passende Software, welche alle Daten während eines Testlaufes aufzeichnen könnte. Ziel ist es die Software mit ankuft der Apparatur in Betrieb zu nehmen.
 \section{Projektergebnisse}
 \subsection{Ergebnisse}
 Die folgenden Ergebnisse müssen im Rahmen dieses Projektes erarbeitet werden:
@@ -63,17 +61,20 @@ Für die Entwicklung wurde folgende Software verwendet:
 	\item MySQL Workbench 6.3.6
 \end{itemize}
 \subsubsection{LabView}
+\begin{wrapfigure}{r}{0.6\textwidth}
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{LabVIEWExample}
+		\caption{Beispiel LabView VI mit Beschreibung}
+		\label{fig:LabViewExample}
+	\end{center}
+\end{wrapfigure}
 LabView ist eine graphische Programiersprache, welche von National Instruments entwickelt wird. Die Funktionsweise von LabVIEW ist zudem sehr speziell es gibt Funktionsblöcke, welche Virtuelle Instrumente (VIs) bezeichnet werden. Diese VIs besitzen immer ein Frontpanel sowie ein Blockdiagramm, in welchem auch der Code zu finden ist (Siehe Figure \ref{fig:LabViewExample}). Zudem unterstützt LabVIEW seit geraumer Zeit Objektorientiertes Programmieren, dies jedoch nur unzulässig oder sehr eingeschränkt.
 \newline
 Wegen diesem Umstand, der mangelnden Objektorientierter Programmierfähigkeit, musste an einigen orten mit einer anderen Art und Weise angegangen werden, wie man es sich gewohnt ist. Zudem sind LabView Programme nicht sonderlich schnell, weshalb es viele Verschiedene Tasks gibt.
 \newline
 Eine weitere Sonderheit ist die Verknüpfung von GUIs mit dem Programm, es ist sehr stark mit dem GUI verknüpft, welches Vor- wie auch Nachteile bietet. So wird bei unserem Projekt stark mit Subpanels gearbeitet, welches die Möglichkeit liefert dynamisch GUIs von anderen VIs in das laufende Programm einzubinden.
-\begin{figure}[htbp] 
-	\centering
-	\includegraphics[height=0.3\textheight]{LabVIEWExample}
-	\caption{Beispiel LabView VI mit Beschreibung}
-	\label{fig:LabViewExample}
-\end{figure}
+
+
 \subsection{Software}
 \subsubsection{Bestehende Software}
 Im Rahmen eines Umzuges der Testabteilung, wurden die Brandräume neu gebaut. Während des Baus wurde zudem die veraltete Software, welche für die Alten Brandräume erstellt wurde. Die neu erstellte Software, welche unter dem Namen Fire Test Commander fortan nur noch FTC, wurde mit LabView erstellt. Diese Software hat schon viele Ansätze, welche für die im Rahmen dieses Projektes zu implementierendes Programm angewandt und übernommen werden können.
@@ -81,7 +82,7 @@ Im Rahmen eines Umzuges der Testabteilung, wurden die Brandräume neu gebaut. W�
 Der FTC bietet schon eine Struktur, um mit möglichst geringen aufwand Hardwarekomponenten hinzuzufügen (Siehe Figure \ref{fig:SystemViewFTC}). Diese Struktur, dient zudem gleich als Vorlage für die neu zu entwickelnde Software.
 \begin{figure}[htbp] 
 	\centering
-	\includegraphics[width=0.7\textwidth]{SystemviewFTC}
+	\includegraphics[width=0.5\textwidth]{SystemviewFTC}
 	\caption{Systemview des Fire Test Commander}
 	\label{fig:SystemViewFTC}
 \end{figure}
@@ -90,7 +91,7 @@ Der FTC bietet schon eine Struktur, um mit möglichst geringen aufwand Hardwarek
 Da die Hardware Abstraktion komplett von der bestehenden Software übernommen werden kann, fällt diese aus dem Projekt heraus. Nur die UDA selber als eigenständige Software entwickelt. Die Abgrenzung des Systemes, kann in folgender Abbildung (Figure \ref{fig:SystemView}) nachvollzogen werden.
 \begin{figure}[htbp] 
 	\centering
-	\includegraphics[width=0.55\textwidth]{Systemgrenzen}
+	\includegraphics[width=0.35\textwidth]{Systemgrenzen}
 	\caption{Systemabgrenzung der einzelnen Komponenten}
 	\label{fig:SystemView}
 \end{figure}
@@ -125,6 +126,8 @@ Die Kommunikation vom Queue Handler zu den Event-Handlern der Subpanel-Vis des H
 	\label{fig:LaufzeitansichtUDA}
 \end{figure}
 
+\subsubsection{Data Preparation \& Recorder}
+
 \subsection{Datenbank}
 \subsubsection{Bestehende Datenbank}
 Mit der implementierung der FTC Software wurde auch eine eigens dafür entwickelte Datenbank aufgebaut. Diese ist in sich enorm Komplex und sehr verstriekt, weshalb ich hier nicht viel näher auf diese eingehen kann.
@@ -132,13 +135,12 @@ Mit der implementierung der FTC Software wurde auch eine eigens dafür entwickel
 Da wie schon erwähnt Software übernommen wird (So die gesammte Hardwareabstraktion) muss auch die Datenbank an diesen Stellen, mit einigen kleineren anpassungen, übernommen werden. Um die Funktionalität der übernommenen Komponenten zu gewährleisten wurde eine DB Schema der bisherigen Datenbank so abgespeckt (Siehe Figure \ref{fig:DBSchemaUDA}), dass Sie für die UDA brauchbar ist.
 \begin{figure}[htbp] 
 	\centering
-	\includegraphics[width=0.5\textwidth]{DBSchemaUDA}
+	\includegraphics[width=0.4\textwidth]{DBSchemaUDA}
 	\caption{Vereinfachtes DB-Schema für die UDA}
 	\label{fig:DBSchemaUDA}
 \end{figure}
 
 Die Bestehende Datenbank des FTC ist sehr komplex und beinhaltet sogar eine Rechteverteilung. Da die neue Software um einiges Schlanker wird und auch nicht eine solch komplexe Struktur der Datenbank verlangt, werden nur teile der Bestehenden Datenbank entnommen, welche mit der Hardwareabstraktion zu tun hat. Dies gewährleisted, dass die Komponente, welche übernommen wird ohne Probleme weiterhin funktioniert. 
-\subsubsection{Recorder}
 \section{Projektergebnis}
 Es konnte ein Skelet einer Neuen Datenerfassungs Software erstellt werden, welche für in weiteren Schritten verbessert und erweitert wird. Die Software wurde schon nach dem ersten erfolgreichen Datenaufzeichnen Angewendet und wird im moment für 2 Testaufbauten betrieben. Sie speichert die Daten persistent und erstellt auswertbare Excel Dateien, mit denen die Testdesigner Auswertungen zu den Tests machen können.
 Eine Installationsanleitung erleichtert zudem die Installation, da die Anleitung Schritt für Schritt mit Bildern erklärt wird.
