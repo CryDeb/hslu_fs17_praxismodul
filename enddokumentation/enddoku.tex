@@ -1,6 +1,7 @@
 \documentclass[10pt]{scrartcl}
 \usepackage[utf8]{inputenc}
-\usepackage{graphicx} 
+\usepackage{graphicx}
+\usepackage{wrapfig}
 \author{Dane Wicki}
 \title{Universal data acquisition}
 \subtitle{FS17 Praxismodul}
@@ -8,8 +9,6 @@
 \begin{document}
 \maketitle
 \tableofcontents
-\newpage
-
 \section{Einleitung, Problembeschreibung}
 \subsection{Gescheftsfeld der Firma}
 Die Siemens AG ist ein führender internationaler Technologiekonzern, der seit mehr als 165 Jahren für technische Leistungsfähigkeit, Innovation, Qualität, Zuverlässigkeit und Internationalität steht. Das Unternehmen ist in mehr als 200 Ländern aktiv, und zwar schwerpunktmäßig auf den Gebieten Elektrifizierung, Automatisierung und Digitalisierung. Siemens ist weltweit einer der größten Hersteller energieeffizienter ressourcenschonender Technologien. Das Unternehmen ist einer der führenden Anbieter effizienter Energieerzeugungs- und Energieübertragungslösungen, Pionier bei Infrastrukturlösungen sowie bei Automatisierungs-, Antriebs- und Softwarelösungen für die Industrie. Darüber hinaus ist das Unternehmen ein führender Anbieter bildgebender medizinischer Geräte wie Computertomographen und Magnetresonanztomographen sowie in der Labordiagnostik und klinischer IT.
@@ -64,12 +63,21 @@ Für die Entwicklung wurde folgende Software verwendet:
 	\item MySQL Workbench 6.3.6
 \end{itemize}
 \subsubsection{LabView}
-LabView ist eine graphische Programiersprache, welche von National Instruments entwickelt wird. Da sie Objektorientiertes programmieren nur unzulässig unterstützt, mussten an einigen orten mit einer anderen Art und Weise angegangen werden, wie man es sich gewohnt ist. Zudem sind LabView programme nicht sonderlich schnell, weshalb es viele Verschiedene Tasks gibt.
-Eine weitere Sonderheit ist die Verknüpfung von GUIs mit dem Programm, das Programm ist stark mit dem GUI verknüpft, welches Vor- wie auch Nachteile bietet.
-\subsection{Bestehende Software}
+LabView ist eine graphische Programiersprache, welche von National Instruments entwickelt wird. Die Funktionsweise von LabVIEW ist zudem sehr speziell es gibt Funktionsblöcke, welche Virtuelle Instrumente (VIs) bezeichnet werden. Diese VIs besitzen immer ein Frontpanel sowie ein Blockdiagramm, in welchem auch der Code zu finden ist (Siehe Figure \ref{fig:LabViewExample}). Zudem unterstützt LabVIEW seit geraumer Zeit Objektorientiertes Programmieren, dies jedoch nur unzulässig oder sehr eingeschränkt.
+\newline
+Wegen diesem Umstand, der mangelnden Objektorientierter Programmierfähigkeit, musste an einigen orten mit einer anderen Art und Weise angegangen werden, wie man es sich gewohnt ist. Zudem sind LabView Programme nicht sonderlich schnell, weshalb es viele Verschiedene Tasks gibt.
+\newline
+Eine weitere Sonderheit ist die Verknüpfung von GUIs mit dem Programm, es ist sehr stark mit dem GUI verknüpft, welches Vor- wie auch Nachteile bietet. So wird bei unserem Projekt stark mit Subpanels gearbeitet, welches die Möglichkeit liefert dynamisch GUIs von anderen VIs in das laufende Programm einzubinden.
+\begin{figure}[htbp] 
+	\centering
+	\includegraphics[height=0.3\textheight]{LabVIEWExample}
+	\caption{Beispiel LabView VI mit Beschreibung}
+	\label{fig:LabViewExample}
+\end{figure}
+\subsection{Software}
+\subsubsection{Bestehende Software}
 Im Rahmen eines Umzuges der Testabteilung, wurden die Brandräume neu gebaut. Während des Baus wurde zudem die veraltete Software, welche für die Alten Brandräume erstellt wurde. Die neu erstellte Software, welche unter dem Namen Fire Test Commander fortan nur noch FTC, wurde mit LabView erstellt. Diese Software hat schon viele Ansätze, welche für die im Rahmen dieses Projektes zu implementierendes Programm angewandt und übernommen werden können.
 
-\newpage
 Der FTC bietet schon eine Struktur, um mit möglichst geringen aufwand Hardwarekomponenten hinzuzufügen (Siehe Figure \ref{fig:SystemViewFTC}). Diese Struktur, dient zudem gleich als Vorlage für die neu zu entwickelnde Software.
 \begin{figure}[htbp] 
 	\centering
@@ -77,15 +85,63 @@ Der FTC bietet schon eine Struktur, um mit möglichst geringen aufwand Hardwarek
 	\caption{Systemview des Fire Test Commander}
 	\label{fig:SystemViewFTC}
 \end{figure}
+
+\subsubsection{Systemgrenzen}
+Da die Hardware Abstraktion komplett von der bestehenden Software übernommen werden kann, fällt diese aus dem Projekt heraus. Nur die UDA selber als eigenständige Software entwickelt. Die Abgrenzung des Systemes, kann in folgender Abbildung (Figure \ref{fig:SystemView}) nachvollzogen werden.
+\begin{figure}[htbp] 
+	\centering
+	\includegraphics[width=0.55\textwidth]{Systemgrenzen}
+	\caption{Systemabgrenzung der einzelnen Komponenten}
+	\label{fig:SystemView}
+\end{figure}
+
+\subsubsection{Komponente UDA}
+Die Softwarestruktur der FTC-Software basiert auf dem Queued Message Handler Template von National Instruments. Das Hauptprogramm (Main) besteht aus zwei parallelen Tasks
+\begin{itemize}
+	\item dem Event-Handler, der primär auf Eingaben vom Anwender reagiert
+	\item und der Verarbeitungstask (Queued Message Handler), der die Aufträge aus seiner Message-Queue entnimmt und der Reihe nach abarbeitet.
+\end{itemize}
+
+Die Bedienoberfläche umfasst vier Subpanel-Vis. Diese werden im Hauptprogramm aufgerufen und laufen parallel zu den beiden Tasks des Hauptprogrammes. Das Frontpanel eines dieser Subpanel-Vis wird programmatisch im Subpanel des Hauptprogrammes sichtbar gemacht.  
+Jedes dieser Subpanel-Vis besitzt einen eigenen Event-Handler der auf Eingaben des Anwenders reagiert. Sowohl der Event-Handler des Hauptprogrammes wie auch diejenigen der Subpanel-Vis senden Messages an die Message-Queue der Verarbeitungstask im Hauptprogramm (In der Abbildung mit grünen durchgezogenen Pfeilen dargestellt).
+
 Aufgrund der Sonderheiten von LabView wurde die Software mit vielen verschiedenen Task ausgestattet. So ist jede GUI komponente, welche auf dem Hauptprogramm aufrufbar ist ein eigener Thread. Die Gui Komponenten werden zur entsprechenden Zeit dynamisch in der Hauptkomponente als Subkomponenten geladen. Diese Komplexe Thread Struktur wird im Folgenden Bild dargestellt.
 
-\subsection{Bestehende Datenbank}
+Die Im Bild \ref{fig:LaufzeitansichtUDA} dargestellten Pfeile stellen die Kommunikationswege dar. Da es nicht nur eine Möglichkeit gibt mit den Threads zu kommunizieren sondern zwei. Die Erste ist mithilfe einer Queue gelöst, welche alle Threads teilen, dabei kann noch eine
+\begin{wrapfigure}{r}{0.15\textwidth}
+	\begin{center}
+		\includegraphics[width=0.48\textwidth]{filterVI.png}
+		\caption{Aufruf des FilterVIs}
+		\label{fig:filterVI}
+	\end{center}
+\end{wrapfigure}
+Die Kommunikation vom Queue Handler zu den Event-Handlern der Subpanel-Vis des Hauptprogramms erfolgt mit User-Events (In der Abbildung \ref{fig:LaufzeitansichtUDA} mit orangen gestrichelten Pfeilen dargestellt). Die User-Events werden an alle Event-Handler gesendet (Broadcast). Mit Hilfe eines Filter-Vis (siehe Figure \ref{fig:filterVI}) kann der empfangende Event-Handler die Events aber filtern, sodass er nur Events mit der richtigen Adresse (ID) verarbeitet.
+
+\begin{figure}[htbp] 
+	\centering
+	\includegraphics[width=0.7\textwidth]{Laufzeitansicht}
+	\caption{Laufzeitansicht der GUI Tasks und deren Kommunikation}
+	\label{fig:LaufzeitansichtUDA}
+\end{figure}
+
+\subsection{Datenbank}
+\subsubsection{Bestehende Datenbank}
+Mit der implementierung der FTC Software wurde auch eine eigens dafür entwickelte Datenbank aufgebaut. Diese ist in sich enorm Komplex und sehr verstriekt, weshalb ich hier nicht viel näher auf diese eingehen kann.
+\subsubsection{Datenbank}
+Da wie schon erwähnt Software übernommen wird (So die gesammte Hardwareabstraktion) muss auch die Datenbank an diesen Stellen, mit einigen kleineren anpassungen, übernommen werden. Um die Funktionalität der übernommenen Komponenten zu gewährleisten wurde eine DB Schema der bisherigen Datenbank so abgespeckt (Siehe Figure \ref{fig:DBSchemaUDA}), dass Sie für die UDA brauchbar ist.
+\begin{figure}[htbp] 
+	\centering
+	\includegraphics[width=0.5\textwidth]{DBSchemaUDA}
+	\caption{Vereinfachtes DB-Schema für die UDA}
+	\label{fig:DBSchemaUDA}
+\end{figure}
+
 Die Bestehende Datenbank des FTC ist sehr komplex und beinhaltet sogar eine Rechteverteilung. Da die neue Software um einiges Schlanker wird und auch nicht eine solch komplexe Struktur der Datenbank verlangt, werden nur teile der Bestehenden Datenbank entnommen, welche mit der Hardwareabstraktion zu tun hat. Dies gewährleisted, dass die Komponente, welche übernommen wird ohne Probleme weiterhin funktioniert. 
 \subsection{Software Architektur}
 Die System Grobstruktur ist von der bestehenden FTC Applikation übernommen worden und Sieht wie folgt aus (siehe Figure \ref{fig:SystemViewUDA}). Es soll im Vergleich zur FTC Applikation jedoch keine Hardware Abstraktion mehr implementiert werden, da diese übernommen werden kann.
 \begin{figure}[htbp] 
 	\centering
-	\includegraphics[width=0.7\textwidth]{Systemview}
+	\includegraphics[width=0.5\textwidth]{Systemview}
 	\caption{Systemview der UDA}
 	\label{fig:SystemViewUDA}
 \end{figure}
@@ -101,5 +157,6 @@ LabView
 \section{Arbeitsjournal}
 \section{Fazit}
 \section{Bestätigung Arbeitgeber}
-
+\bibliography{literature}{}
+\bibliographystyle{apalike}
 \end{document}
