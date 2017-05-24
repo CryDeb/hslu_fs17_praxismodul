@@ -2,6 +2,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{wrapfig}
+\usepackage{hhline}
 \author{Dane Wicki}
 \title{Universal data acquisition}
 \subtitle{FS17 Praxismodul}
@@ -109,9 +110,9 @@ Jedes dieser Subpanel-Vis besitzt einen eigenen Event-Handler der auf Eingaben d
 Aufgrund der Sonderheiten von LabView wurde die Software mit vielen verschiedenen Task ausgestattet. So ist jede GUI komponente, welche auf dem Hauptprogramm aufrufbar ist ein eigener Thread. Die Gui Komponenten werden zur entsprechenden Zeit dynamisch in der Hauptkomponente als Subkomponenten geladen. Diese Komplexe Thread Struktur wird im Folgenden Bild dargestellt.
 
 
-\begin{wrapfigure}{r}{0.5\textwidth}
+\begin{wrapfigure}{r}{0.4\textwidth}
 	\begin{center}
-		\includegraphics[width=0.4\textwidth]{filterVI}
+		\includegraphics[width=0.3\textwidth]{filterVI}
 		\caption{Aufruf des FilterVIs}
 		\label{fig:filterVI}
 	\end{center}
@@ -146,8 +147,32 @@ Es konnte ein Skelet einer Neuen Datenerfassungs Software erstellt werden, welch
 Eine Installationsanleitung erleichtert zudem die Installation, da die Anleitung Schritt für Schritt mit Bildern erklärt wird.
 Die Softwaredokumentation sowie die Bedienungsanleitung wurden in Absprache mit den Vorgesetzten im moment noch klein gehalten, da Sie zuerst das Skelett der Software wollten. Der grund für die Schnelle einführung der Software, war eine Anpassung einer UL Norm, welche dafür sorgte, dass die Melder mit einer Neuen Apparatur möglichst schon zu beginn des Projektes getestet werden sollten.
 
-
 \section{Arbeitsjournal}
+\begin{center}
+	\begin{tabular}{p{6cm} | l | r}
+		\textbf{Tätigkeit} & \textbf{Zeitraum} & \textbf{Aufwand} \\ &&\textbf{(t a 8h)}\\
+		\hline Analyse der Anforderungen & W1 & 1 \\
+		\hline Einarbeit in die Bestehende Software & W1 - W2 & 4 \\
+		\hline Planung & W3 & 2.5 \\
+		\hline SW-Design & W3-4 & 1.5 \\
+		\hline DB-Modell & W4 & 1.5 \\
+		\hline DB-Erstellen (Installieren und DB Modell umsetzten) & W4 - W5 & 1 \\
+		\hline GUI Design & W5 & 2 \\
+		\hline DB Kommunikation & W5 - W6 & 2.5 \\
+		\hline Settings Screen (ini file modifikation) & W6 - W7 & 2 \\
+		\hline Channels Screen (anzeige von DB info) & W7 & 1.5 \\
+		\hline Graph Screen (ohne Kommunikation) & W8 - W9 & 4 \\
+		\hline Recorder Implementation (Kommunikation zu Hardware Komponente) & W9 - W10 & 3.5 \\
+		\hline Implementation Excel Export & W10 - W11 & 3 \\
+		\hline Graph Screen inbetriebnahme mit Kommunikation & W11 - W12 & 3 \\
+		\hline Fertigstellung des Software Skelettes (Zusammenführen aller Komponente) & W13 & 2 \\
+		\hline Installer erstellen & W13 - W14 & 1 \\
+		\hline Inbetriebnahme (Gebrauch der Software mit ankunft des neuen Aufbaus) & W14 & 3 \\
+		\hline Installationsanleitung & W14 & 1 \\
+		\hline SW-Dokumentation (beginn bei planung wurde jeweils ergenzt und am schluss nochmals zusammengetragen) & W14 & 0.5 \\\hhline{~--}
+		& \textbf{Summe:} & \textbf{40.5} \\\hhline{~~=}
+	\end{tabular}	
+\end{center}
 \section{Fazit}
 Für mich war und ist die UDA ein enorm grosses Projekt, welches mich sicher noch ein weiters Jahr beschäftigen wird, da es noch viele features zu implementieren gilt.
 
@@ -155,7 +180,7 @@ Ich muss jedoch gestehen, ich habe die Arbeit unterschätzt. Es gab ja Architekt
 
 Weiter hatte ich einige Schwirigkeiten, bis ich das Aufzeichnen der Daten hingekriegt habe. Hier half jedoch, dass die Hardwarekomponenten schon klar eine Schnittstelle definiert hatten. Es dauerte jedoch sehr lange bis ich eine passende lösung gefunden habe, da ich für die Integrität des Lesens, also das die Software wirklich immer in einem gewissen Zeitintervall die Daten speichert. Da ich in dieser Funktion einen eigenen Task erstellen musste und LabVIEW hier auch so seine schwächen hat.
 
-Als fazit für mich muss ich leider sagen, dass ich für Projekte dieser Grössenordung dringend von LabVIEW abrate. Man hat zwar schnell das Skellett des GUIs und eine gewisse Grundfunktionalität, jedoch lässt der mangel an wartbarkeit die Software Komplexität ins unermessliche steigen. Denn obwohl LabVIEW inzwischen OOP und unit tests kennt, sind diese nur unzureichend gebrauchbaur.
+Als Fazit für mich muss ich leider sagen, dass ich für Projekte dieser Grössenordung dringend von LabVIEW abrate. Man hat zwar schnell das Skelett des GUIs und eine gewisse Grundfunktionalität, jedoch lässt der Mangel an Wartbarkeit die Software Komplexität ins unermessliche steigen. Denn obwohl LabVIEW inzwischen OOP und unit Tests kennt, sind diese nur unzureichend brauchbar.
 \section{Bestätigung Arbeitgeber}
 \bibliography{literature}
 \bibliographystyle{ieeetr}

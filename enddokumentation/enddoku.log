@@ -1,32 +1,36 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.5.24)  24 MAY 2017 01:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.1)  24 MAY 2017 13:41
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**enddoku.tex
-(./enddoku.tex
-LaTeX2e <2017/01/01> patch level 3
-Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
-(/usr/share/texmf-dist/tex/latex/koma-script/scrartcl.cls
+**./enddoku.tex
+(enddoku.tex
+LaTeX2e <2017-04-15>
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+
+(C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrartcl.cl
+s
 Document Class: scrartcl 2017/01/03 v3.22 KOMA-Script document class (article)
-(/usr/share/texmf-dist/tex/latex/koma-script/scrkbase.sty
+
+(C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrkbase.st
+y
 Package: scrkbase 2017/01/03 v3.22 KOMA-Script package (KOMA-Script-dependent b
 asics and keyval usage)
 
-(/usr/share/texmf-dist/tex/latex/koma-script/scrbase.sty
+(C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrbase.sty
 Package: scrbase 2017/01/03 v3.22 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
-
-(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+(D:\Program\MiKTeX\tex\latex\graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/share/texmf-dist/tex/latex/koma-script/scrlfile.sty
+(C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrlfile.st
+y
 Package: scrlfile 2017/01/03 v3.22 KOMA-Script package (loading files)
 
 Package scrlfile, 2017/01/03 v3.22 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
-))) (/usr/share/texmf-dist/tex/latex/koma-script/tocbasic.sty
+)))
+(C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\tocbasic.st
+y
 Package: tocbasic 2017/01/03 v3.22 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip41
 \scr@dte@tocline@numbox=\box26
@@ -49,11 +53,13 @@ Package scrartcl Info: You've used standard option `10pt'.
 Class scrartcl Info: File `scrsize10pt.clo' used to setup font sizes on input l
 ine 2053.
 
-(/usr/share/texmf-dist/tex/latex/koma-script/scrsize10pt.clo
+(C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrsize10pt
+.clo
 File: scrsize10pt.clo 2017/01/03 v3.22 KOMA-Script font size class option (10pt
 )
 )
-(/usr/share/texmf-dist/tex/latex/koma-script/typearea.sty
+(C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\typearea.st
+y
 Package: typearea 2017/01/03 v3.22 KOMA-Script package (type area)
 
 Package typearea, 2017/01/03 v3.22 KOMA-Script package (type area)
@@ -104,19 +110,19 @@ LaTeX Info: Redefining \textsubscript on input line 4076.
 \c@table=\count87
 Class scrartcl Info: Redefining `\numberline' on input line 5125.
 \bibindent=\dimen102
-) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+) (D:\Program\MiKTeX\tex\latex\base\inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 
-(/usr/share/texmf-dist/tex/latex/base/utf8.def
+(D:\Program\MiKTeX\tex\latex\base\utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/share/texmf-dist/tex/latex/base/t1enc.dfu
+(D:\Program\MiKTeX\tex\latex\base\t1enc.dfu
 File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -357,7 +363,7 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/share/texmf-dist/tex/latex/base/ot1enc.dfu
+(D:\Program\MiKTeX\tex\latex\base\ot1enc.dfu
 File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -398,7 +404,7 @@ File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/share/texmf-dist/tex/latex/base/omsenc.dfu
+(D:\Program\MiKTeX\tex\latex\base\omsenc.dfu
 File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -422,27 +428,27 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+(D:\Program\MiKTeX\tex\latex\graphics\graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+(D:\Program\MiKTeX\tex\latex\graphics\graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+(D:\Program\MiKTeX\tex\latex\graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(D:\Program\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+(D:\Program\MiKTeX\tex\latex\graphics-def\pdftex.def
 File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(D:\Program\MiKTeX\tex\generic\oberdiek\infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(D:\Program\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count88
@@ -450,30 +456,33 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(/usr/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+(C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
 \wrapoverhang=\dimen105
 \WF@size=\dimen106
 \c@WF@wrappedlines=\count89
 \WF@box=\box28
 \WF@everypar=\toks17
 Package: wrapfig 2003/01/31  v 3.6
-) (./enddoku.aux)
+)
+(D:\Program\MiKTeX\tex\latex\tools\hhline.sty
+Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
+) (enddoku.aux)
 \openout1 = `enddoku.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count90
 \scratchdimen=\dimen107
@@ -486,15 +495,15 @@ LaTeX Font Info:    ... okay on input line 9.
 \MPnumerator=\count94
 \makeMPintoPDFobject=\count95
 \everyMPtoPDFconversion=\toks19
-) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+) (D:\Program\MiKTeX\tex\generic\oberdiek\pdftexcmds.sty
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(D:\Program\MiKTeX\tex\generic\oberdiek\ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(D:\Program\MiKTeX\tex\generic\oberdiek\ifpdf.sty
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -502,22 +511,22 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(D:\Program\MiKTeX\tex\latex\oberdiek\epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
+(D:\Program\MiKTeX\tex\latex\oberdiek\grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(D:\Program\MiKTeX\tex\generic\oberdiek\kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(D:\Program\MiKTeX\tex\latex\oberdiek\kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(D:\Program\MiKTeX\tex\generic\oberdiek\kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(D:\Program\MiKTeX\tex\generic\oberdiek\etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -530,16 +539,12 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
+)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 11.
+(Font)              <14.4> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 11.
- (./enddoku.toc
+(Font)              <7> on input line 12.
+ (enddoku.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 2.
 )
@@ -547,136 +552,160 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout3 = `enddoku.toc'.
 
 
-Overfull \hbox (2.4888pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/n/10 der medi-zinis-cher Ger^^?ate wie Com-put-er-to-mo-graphen und 
-Mag-ne-tres-o-nanz-to-mo-graphen
+Overfull \hbox (2.4888pt too wide) in paragraph at lines 15--16
+\OT1/cmr/m/n/10 der medi-zinis-cher Gerate wie Com-put-er-to-mo-graphen und Ma
+g-ne-tres-o-nanz-to-mo-graphen
  []
 
 [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 32.
-
-(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+{C:/Users/z003019u/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+[2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 33.
+ (D:\Program\MiKTeX\tex\latex\base\omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 33.
  [3]
-<LabVIEWExample.png, id=17, 407.27156pt x 280.79906pt>
+<LabVIEWExample.png, id=16, 407.27156pt x 280.79906pt>
 File: LabVIEWExample.png Graphic file (type png)
 
 <use LabVIEWExample.png>
-Package pdftex.def Info: LabVIEWExample.png used on input line 66.
+Package pdftex.def Info: LabVIEWExample.png used on input line 67.
 (pdftex.def)             Requested size: 224.06775pt x 154.48709pt.
 
-Underfull \hbox (badness 3838) in paragraph at lines 71--76
+Underfull \hbox (badness 3838) in paragraph at lines 72--77
 []\OT1/cmr/m/n/10 LabView ist eine graphis-che
  []
 
 
-Underfull \hbox (badness 6526) in paragraph at lines 71--76
+Underfull \hbox (badness 6526) in paragraph at lines 72--77
 \OT1/cmr/m/n/10 welche Virtuelle In-stru-mente
  []
 
 
-Underfull \hbox (badness 3690) in paragraph at lines 71--76
+Underfull \hbox (badness 3690) in paragraph at lines 72--77
 \OT1/cmr/m/n/10 finden ist (Siehe Fig-ure 1[]).
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 71--76
-\OT1/cmr/m/n/10 Zu-dem un-terst^^?utzt Lab-VIEW
+Underfull \hbox (badness 1975) in paragraph at lines 72--77
+\OT1/cmr/m/n/10 Zu-dem un-terstutzt Lab-VIEW
  []
 
 
-Underfull \hbox (badness 1917) in paragraph at lines 71--76
+Underfull \hbox (badness 1917) in paragraph at lines 72--77
 \OT1/cmr/m/n/10 Wegen diesem Um-stand, der
  []
 
 
-Underfull \hbox (badness 2057) in paragraph at lines 71--76
+Underfull \hbox (badness 2057) in paragraph at lines 72--77
 \OT1/cmr/m/n/10 man-gel-nden Ob-jek-to-ri-en-tierter
  []
 
 
-Overfull \hbox (7.3637pt too wide) in paragraph at lines 80--81
-\OT1/cmr/m/n/10 W^^?ahrend des Baus wurde zu-dem die ve-r-al-tete Soft-ware, we
-lche f^^?ur die Al-ten Brandr^^?aume
+Overfull \hbox (7.3637pt too wide) in paragraph at lines 81--82
+\OT1/cmr/m/n/10 Wahrend des Baus wurde zu-dem die ve-r-al-tete Soft-ware, welc
+he fur die Al-ten Brandraume
  []
 
 [4 <./LabVIEWExample.png>]
-<SystemviewFTC.png, id=23, 585.68813pt x 293.59688pt>
+<SystemviewFTC.png, id=22, 585.68813pt x 293.59688pt>
 File: SystemviewFTC.png Graphic file (type png)
  <use SystemviewFTC.png>
-Package pdftex.def Info: SystemviewFTC.png used on input line 85.
+Package pdftex.def Info: SystemviewFTC.png used on input line 86.
 (pdftex.def)             Requested size: 186.72122pt x 93.599pt.
 
-<Systemgrenzen.png, id=24, 405.01312pt x 385.44pt>
+<Systemgrenzen.png, id=23, 405.01312pt x 385.44pt>
 File: Systemgrenzen.png Graphic file (type png)
  <use Systemgrenzen.png>
-Package pdftex.def Info: Systemgrenzen.png used on input line 94.
+Package pdftex.def Info: Systemgrenzen.png used on input line 95.
 (pdftex.def)             Requested size: 130.70714pt x 124.3902pt.
 
 [5 <./SystemviewFTC.png> <./Systemgrenzen.png>]
-Overfull \hbox (11.53035pt too wide) in paragraph at lines 106--108
+Overfull \hbox (11.53035pt too wide) in paragraph at lines 107--109
 \OT1/cmr/m/n/10 Haupt-pro-grammes wie auch diejeni-gen der Subpanel-Vis senden 
 Mes-sages an die Message-
  []
 
 
-Overfull \hbox (8.55829pt too wide) in paragraph at lines 106--108
+Overfull \hbox (8.55829pt too wide) in paragraph at lines 107--109
 \OT1/cmr/m/n/10 Queue der Ve-r-ar-beitungstask im Haupt-pro-gramm (In der Ab-bi
-l-dung mit gr^^?unen durchge-
+l-dung mit grunen durchge-
  []
 
-<filterVI.png, id=29, 225.09094pt x 150.5625pt>
+<filterVI.png, id=28, 225.09094pt x 150.5625pt>
 File: filterVI.png Graphic file (type png)
  <use filterVI.png>
-Package pdftex.def Info: filterVI.png used on input line 114.
-(pdftex.def)             Requested size: 149.3747pt x 99.92062pt.
+Package pdftex.def Info: filterVI.png used on input line 115.
+(pdftex.def)             Requested size: 112.03387pt x 74.93874pt.
 
-Underfull \hbox (badness 1400) in paragraph at lines 119--121
-[][]\OT1/cmr/m/n/10 Die Im Bild 5[] dargestell-ten Pfeile
- []
-
-<Laufzeitansicht.png, id=30, 307.90031pt x 214.55156pt>
+<Laufzeitansicht.png, id=29, 307.90031pt x 214.55156pt>
 File: Laufzeitansicht.png Graphic file (type png)
 
 <use Laufzeitansicht.png>
-Package pdftex.def Info: Laufzeitansicht.png used on input line 124.
+Package pdftex.def Info: Laufzeitansicht.png used on input line 125.
 (pdftex.def)             Requested size: 336.09593pt x 234.21667pt.
- [6 <./filterVI.png>]
-<DBSchemaUDA.png, id=35, 563.85657pt x 815.29594pt>
+ <DBSchemaUDA.png, id=30, 563.85657pt x 815.29594pt>
 File: DBSchemaUDA.png Graphic file (type png)
- <use DBSchemaUDA.png>
-Package pdftex.def Info: DBSchemaUDA.png used on input line 138.
-(pdftex.def)             Requested size: 149.3747pt x 215.97775pt.
 
-[7 <./Laufzeitansicht.png>] [8 <./DBSchemaUDA.png>] (./enddoku.bbl
+<use DBSchemaUDA.png>
+Package pdftex.def Info: DBSchemaUDA.png used on input line 139.
+(pdftex.def)             Requested size: 149.3747pt x 215.97775pt.
+ [6 <./filterVI.png>] [7 <./Laufzeitansicht.png>]
+Underfull \hbox (badness 6510) in paragraph at lines 159--159
+[]\OT1/cmr/m/n/10 DB-Erstellen (In-stal-lieren und DB
+ []
+
+
+Underfull \hbox (badness 7613) in paragraph at lines 165--165
+[]\OT1/cmr/m/n/10 Recorder Im-ple-men-ta-tion (Kom-mu-
+ []
+
+
+Underfull \hbox (badness 8132) in paragraph at lines 167--167
+[]\OT1/cmr/m/n/10 Graph Screen in-be-trieb-nahme mit
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 168--168
+[]\OT1/cmr/m/n/10 Fertigstellung des Soft-ware Skelettes
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 170--170
+[]\OT1/cmr/m/n/10 Inbetriebnahme (Ge-brauch der Soft-
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 172--172
+[]\OT1/cmr/m/n/10 SW-Dokumentation (be-ginn bei pla-
+ []
+
+[8 <./DBSchemaUDA.png>] [9] (enddoku.bbl
 
 LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
                before end of `thebibliography' environment on input line 3.
 
-) [9] (./enddoku.aux) ) 
+) [10] (enddoku.aux) ) 
 Here is how much of TeX's memory you used:
- 3807 strings out of 493013
- 63245 string characters out of 6139317
- 213226 words of memory out of 5000000
- 7316 multiletter control sequences out of 15000+600000
- 6342 words of font info for 23 fonts, out of 8000000 for 9000
+ 3825 strings out of 493328
+ 63602 string characters out of 3143452
+ 215427 words of memory out of 3000000
+ 7322 multiletter control sequences out of 15000+200000
+ 6342 words of font info for 23 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,6n,51p,8845b,227s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-bx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb>
-Output written on enddoku.pdf (9 pages, 246052 bytes).
+ 48i,9n,51p,8847b,225s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Program/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.
+pfb><D:/Program/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Program/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmssbx10.pfb><D:/Program/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb>
+Output written on enddoku.pdf (10 pages, 259113 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 65 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
