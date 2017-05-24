@@ -1,3 +1,47 @@
-\begin{thebibliography}{}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\end{thebibliography}
+
+\refsection{0}
+  \sortlist[entry]{nty/global/}
+    \entry{website:labView}{online}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; 22.05.2017]}
+      \field{title}{LabVIEW}
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/LabVIEW
+      \endverb
+      \keyw{LabVIEW}
+    \endentry
+    \entry{website:siemens}{online}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; 03.04.2017]}
+      \field{title}{Siemens}
+      \verb{url}
+      \verb http://www.siemens.com/
+      \endverb
+      \keyw{Siemens,Geschäftsfeld}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

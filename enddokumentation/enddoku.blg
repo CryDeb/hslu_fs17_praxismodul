@@ -1,5 +1,17 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: enddoku.aux
-The style file: ieeetr.bst
-I found no \citation commands---while reading file enddoku.aux
-Database file #1: literature.bib
-(There was 1 error message)
+[0] Config.pm:354> INFO - This is Biber 2.7
+[0] Config.pm:357> INFO - Logfile is 'enddoku.blg'
+[45] biber-MSWIN64:303> INFO - === 
+[76] Biber.pm:359> INFO - Reading 'enddoku.bcf'
+[161] Biber.pm:835> INFO - Found 2 citekeys in bib section 0
+[174] Biber.pm:3670> INFO - Processing section 0
+[214] Biber.pm:3840> INFO - Looking for bibtex format file 'sample.bib' for section 0
+[224] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[237] bibtex.pm:1292> INFO - Found BibTeX data source 'sample.bib'
+[257] Utils.pm:164> WARN - BibTeX subsystem: C:\Users\z003019u\AppData\Local\Temp\vnq5HXQS65\sample.bib_9772.utf8, line 8, warning: 1 characters of junk seen at toplevel
+[278] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[278] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[278] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[279] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[282] bbl.pm:608> INFO - Writing 'enddoku.bbl' with encoding 'UTF-8'
+[282] bbl.pm:712> INFO - Output to enddoku.bbl
+[285] Biber.pm:109> INFO - WARNINGS: 1
