@@ -42,10 +42,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5}Arbeitsjournal}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Fazit}{10}
+\contentsline {section}{\numberline {6}Fazit}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Best\IeC {\"a}tigung Arbeitgeber}{11}
+\contentsline {section}{\numberline {7}Best\IeC {\"a}tigung Arbeitgeber}{10}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Glossary}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Acronyms}{12}
+\contentsline {section}{Acronyms}{11}

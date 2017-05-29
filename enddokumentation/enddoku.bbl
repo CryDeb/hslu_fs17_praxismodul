@@ -19,6 +19,38 @@
 
 \refsection{0}
   \sortlist[entry]{nty/global/}
+    \entry{tech:ftc}{manual}{}
+      \name{author}{3}{}{%
+        {{hash=9c4752353761e2382fe2edc125780685}{%
+           family={Kobras},
+           familyi={K\bibinitperiod},
+           given={Rupert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=de8891a56bd0ef564af8423c08b85157}{%
+           family={Wermelinger},
+           familyi={W\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0794ae3fcd9dcdee5609331517d2982d}{%
+           family={Schnyder},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Siemens}%
+      }
+      \strng{namehash}{93da6a83e4f4148f8a14c5aefdfd3b6f}
+      \strng{fullhash}{93da6a83e4f4148f8a14c5aefdfd3b6f}
+      \strng{authornamehash}{93da6a83e4f4148f8a14c5aefdfd3b6f}
+      \strng{authorfullhash}{93da6a83e4f4148f8a14c5aefdfd3b6f}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{internal Document}
+      \field{title}{Code Dokumentation FTC}
+    \endentry
     \entry{website:labView}{online}{}
       \field{sortinit}{L}
       \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}

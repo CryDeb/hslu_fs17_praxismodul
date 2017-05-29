@@ -105,12 +105,6 @@ Im Rahmen des Umzuges der Testabteilung, wurden die Brandräume neu gebaut. Wäh
 \subsubsection{Systemgrenzen}
 Da die Hardware Abstraktion komplett von der bestehenden Software übernommen werden kann, fällt diese aus dem Projekt heraus. Nur die UDA selber, soll als eigenständige Software entwickelt werden. Die Abgrenzung des Systemes kann in folgender Abbildung (Figure \ref{fig:SystemView}) nachvollzogen werden.
  Die Datenbank ist eine MySQL Datenbank, welche mithilfe des ODBC ANSII Treibers Angesprochen werden kann. Die Schnittstelle wird von \gls{LabVIEW} zur Verfügung gestellt und musste auch nicht selber Implementiert werden.
-\newline
-\newline
-\newline
-\newline
-\newline
-\newline
 \subsubsection{Komponente UDA}
 Aufgrund von Performance gründen wurde die Software mit vielen verschiedenen Task ausgestattet. So ist jede GUI Komponente, welche auf dem Hauptprogramm aufrufbar ist ein eigener Thread,  welchen ihren eigenen Event-Handler besitzt. Die Gui Komponenten werden zur entsprechenden Zeit dynamisch in der Hauptkomponente als Subkomponenten geladen. Diese Komplexe Thread Struktur wird im Bild \ref{fig:LaufzeitansichtUDA} dargestellt. Diese Software struktur basiert auf dem Queued Message Handler Template von National Instruments.
 Das Hauptprogramm (Main) besteht aus zwei parallelen Tasks
@@ -132,7 +126,7 @@ Jedes dieser Subpanel-Vis besitzt einen eigenen Event-Handler der auf Eingaben d
 		\label{fig:filterVI}
 	\end{center}
 \end{wrapfigure}
-Die Im Bild \ref{fig:LaufzeitansichtUDA} dargestellten Pfeile stellen die Kommunikationswege dar. Es gibt insgesammt 2 Möglichkeiten der Kommunikation. Wie oben geschrieben gibt es die Message-Queue, mit welcher Messages an das Hauptprogramm gesendet werden können. Dieses wiederum kann mit allen anderen über ein User-Event (In der Abbildung \ref{fig:LaufzeitansichtUDA} mit orangen gestrichelten Pfeilen dargestellt) kommunizieren. Die User-Events werden an alle Event-Handler gesendet (Broadcast). Mit Hilfe eines Filter-Vis (siehe Figure \ref{fig:filterVI}) kann der empfangende Event-Handler die Events aber filtern, sodass er nur Events mit der richtigen Adresse (ID) verarbeitet.
+Die Im Bild \ref{fig:LaufzeitansichtUDA} dargestellten Pfeile stellen die Kommunikationswege dar. Es gibt insgesammt 2 Möglichkeiten der Kommunikation. Wie oben geschrieben gibt es die Message-Queue, mit welcher Messages an das Hauptprogramm gesendet werden können. Dieses wiederum kann mit allen anderen über ein User-Event (In der Abbildung \ref{fig:LaufzeitansichtUDA} mit orangen gestrichelten Pfeilen dargestellt) kommunizieren. Die User-Events werden an alle Event-Handler gesendet (Broadcast). Mit Hilfe eines Filter-Vis (siehe Figure \ref{fig:filterVI}) kann der empfangende Event-Handler die Events aber filtern, sodass er nur Events mit der richtigen Adresse (ID) verarbeitet.  \cite{tech:ftc} 
 
 \begin{figure}[htbp]
 	\centering
@@ -155,9 +149,9 @@ Die Umsetztung setzte voraus, dass das Aufzeichnen aller Daten in einem immer gl
 \subsubsection{Bestehende Datenbank}
 Mit der Implementierung der FTC Software wurde auch eine eigens dafür entwickelte Datenbank aufgebaut. Diese ist in sich enorm Komplex und sehr verstrickt, weshalb hier nicht viel näher auf diese eingegangen wird.
 \subsubsection{Datenbank}
-\begin{wrapfigure}{r}{0.65\textwidth}
+\begin{wrapfigure}{r}{0.60\textwidth}
 	\begin{center}
-		\includegraphics[width=0.6\textwidth]{DBShemaEasy2.png}
+		\includegraphics[width=0.55\textwidth]{DBShemaEasy2.png}
 		\caption{Vereinfachtes DB-Schema für die UDA}
 		\label{fig:DBSchemaUDA}
 	\end{center}

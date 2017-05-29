@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.1)  24 MAY 2017 20:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.1)  29 MAY 2017 16:19
 entering extended mode
 **./enddoku.tex
 (enddoku.tex
@@ -1178,52 +1178,27 @@ Package wrapfig Warning: Stationary wrapfigure forced to float on input line 10
 5.
 
 
-Underfull \hbox (badness 3449) in paragraph at lines 106--114
+Underfull \hbox (badness 3449) in paragraph at lines 106--108
 []\OT1/cmr/m/n/10 Da die Hard-ware Ab-strak-tion kom-
  []
 
 
-Underfull \hbox (badness 3668) in paragraph at lines 106--114
+Underfull \hbox (badness 3668) in paragraph at lines 106--108
 \OT1/cmr/m/n/10 plett von der beste-hen-den Soft-ware
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 106--114
+Underfull \hbox (badness 1590) in paragraph at lines 106--108
 \OT1/cmr/m/n/10 en-twick-elt wer-den. Die Ab-gren-zung
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--114
-
- []
-
 [5 <./SystemviewFTC.png> <./Systemgrenzen.png>]
-Overfull \hbox (11.53035pt too wide) in paragraph at lines 122--124
+Underfull \hbox (badness 5696) in paragraph at lines 109--111
+\OT1/cmr/m/n/10 Aufgrund von Per-for-mance grunden
+ []
+
+
+Overfull \hbox (11.53035pt too wide) in paragraph at lines 116--118
 \OT1/cmr/m/n/10 Haupt-pro-grammes wie auch diejeni-gen der Subpanel-Vis senden 
 Mes-sages an die Message-
  []
@@ -1231,15 +1206,15 @@ Mes-sages an die Message-
 <filterVI.png, id=28, 225.09094pt x 150.5625pt>
 File: filterVI.png Graphic file (type png)
  <use filterVI.png>
-Package pdftex.def Info: filterVI.png used on input line 130.
+Package pdftex.def Info: filterVI.png used on input line 124.
 (pdftex.def)             Requested size: 112.03387pt x 74.93874pt.
 
-Underfull \hbox (badness 1810) in paragraph at lines 135--136
+Underfull \hbox (badness 1810) in paragraph at lines 129--130
 [][]\OT1/cmr/m/n/10 Die Im Bild 5[] dargestell-ten Pfeile stellen
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 135--136
+Underfull \hbox (badness 1048) in paragraph at lines 129--130
 \OT1/cmr/m/n/10 oben geschrieben gibt es die Message-Queue,
  []
 
@@ -1247,7 +1222,7 @@ Underfull \hbox (badness 1048) in paragraph at lines 135--136
 File: LaufzeitansichtMitRecorder.png Graphic file (type png)
 
 <use LaufzeitansichtMitRecorder.png>
-Package pdftex.def Info: LaufzeitansichtMitRecorder.png used on input line 139.
+Package pdftex.def Info: LaufzeitansichtMitRecorder.png used on input line 133.
 
 (pdftex.def)             Requested size: 298.7551pt x 197.10828pt.
  [6 <./filterVI.png>]
@@ -1255,128 +1230,93 @@ Package pdftex.def Info: LaufzeitansichtMitRecorder.png used on input line 139.
 File: LauftzeitansichtRecorderNah.png Graphic file (type png)
 
 <use LauftzeitansichtRecorderNah.png>
-Package pdftex.def Info: LauftzeitansichtRecorderNah.png used on input line 146
+Package pdftex.def Info: LauftzeitansichtRecorderNah.png used on input line 140
 .
 (pdftex.def)             Requested size: 108.29579pt x 110.48851pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 []\OT1/cmr/m/n/10 Kommunikation Main
  []
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 15
-1.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 14
+5.
 
 [7 <./LaufzeitansichtMitRecorder.png> <./LauftzeitansichtRecorderNah.png>]
 <DBShemaEasy2.png, id=40, 563.85657pt x 685.8122pt>
 File: DBShemaEasy2.png Graphic file (type png)
  <use DBShemaEasy2.png>
-Package pdftex.def Info: DBShemaEasy2.png used on input line 160.
-(pdftex.def)             Requested size: 224.06775pt x 272.53056pt.
+Package pdftex.def Info: DBShemaEasy2.png used on input line 154.
+(pdftex.def)             Requested size: 205.39449pt x 249.8223pt.
 
-Underfull \hbox (badness 4543) in paragraph at lines 166--167
-\OT1/cmr/m/n/10 etwa die gesamte Hard-
+Underfull \hbox (badness 2165) in paragraph at lines 160--161
+[]\OT1/cmr/m/n/10 Da wie schon erwahnt Soft-
  []
 
 
-Underfull \hbox (badness 1755) in paragraph at lines 166--167
-\OT1/cmr/m/n/10 die Daten-bank an diesen
+Underfull \hbox (badness 6220) in paragraph at lines 160--161
+\OT1/cmr/m/n/10 ten zu gewahrleisten wurde
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 166--167
-\OT1/cmr/m/n/10 Stellen ubernommen wer-
+Underfull \hbox (badness 3769) in paragraph at lines 163--164
+\OT1/cmr/m/n/10 zusam-men-gelegt. Die Blau
  []
 
 
-Underfull \hbox (badness 1776) in paragraph at lines 166--167
-\OT1/cmr/m/n/10 der ubernommenen Kom-
+Underfull \hbox (badness 3977) in paragraph at lines 163--164
+\OT1/cmr/m/n/10 ist. An diesen Physikalis-
  []
 
 
-Underfull \hbox (badness 5490) in paragraph at lines 166--167
-\OT1/cmr/m/n/10 wurde eine DB Schema
- []
-
-
-Underfull \hbox (badness 1661) in paragraph at lines 166--167
-\OT1/cmr/m/n/10 der bish-eri-gen Daten-bank
- []
-
-
-Overfull \hbox (6.20972pt too wide) in paragraph at lines 169--170
-[]\OT1/cmr/m/n/10 Im Fig-ure 7[] wur-den zusam-
- []
-
-
-Underfull \hbox (badness 1867) in paragraph at lines 169--170
-\OT1/cmr/m/n/10 Blau markierten Tabellen
- []
-
-
-Overfull \hbox (7.9042pt too wide) in paragraph at lines 169--170
-\OT1/cmr/m/n/10 liegt ein Physikalis-cher Kanal,
- []
-
-
-Overfull \hbox (6.73744pt too wide) in paragraph at lines 169--170
-\OT1/cmr/m/n/10 welche in der Phys-i-cal Tabelle
- []
-
-
-Overfull \hbox (19.54309pt too wide) in paragraph at lines 169--170
-\OT1/cmr/m/n/10 die Meldee-in-for-ma-tio-nen, welche
- []
-
-
-Overfull \hbox (17.58475pt too wide) in paragraph at lines 169--170
-\OT1/cmr/m/n/10 alle-samt in der Grun Markierten
+Underfull \hbox (badness 1237) in paragraph at lines 163--164
+\OT1/cmr/m/n/10 chen Kanal sind die Meldee-
  []
 
 [8 <./DBShemaEasy2.png>]
-Underfull \hbox (badness 6510) in paragraph at lines 184--184
+Underfull \hbox (badness 6510) in paragraph at lines 178--178
 []\OT1/cmr/m/n/10 DB-Erstellen (In-stal-lieren und DB
  []
 
 
-Underfull \hbox (badness 7613) in paragraph at lines 190--190
+Underfull \hbox (badness 7613) in paragraph at lines 184--184
 []\OT1/cmr/m/n/10 Recorder Im-ple-men-ta-tion (Kom-mu-
  []
 
 
-Underfull \hbox (badness 7221) in paragraph at lines 192--192
+Underfull \hbox (badness 7221) in paragraph at lines 186--186
 []\OT1/cmr/m/n/10 Graph Screen In-be-trieb-nahme mit
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 193--193
+Underfull \hbox (badness 1117) in paragraph at lines 187--187
 []\OT1/cmr/m/n/10 Fertigstellung des Soft-ware Skelettes
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 195--195
+Underfull \hbox (badness 1178) in paragraph at lines 189--189
 []\OT1/cmr/m/n/10 Inbetriebnahme (Ge-brauch der Soft-
  []
 
 [9]
-Overfull \hbox (1.86365pt too wide) in paragraph at lines 206--207
+Overfull \hbox (1.86365pt too wide) in paragraph at lines 200--201
 []\OT1/cmr/m/n/10 Weiter hatte ich einige Schwierigkeiten, bis ich das Aufze-ic
 h-nen der Daten hingekriegt
  []
 
-[10] (enddoku.gls [11]) (enddoku.acr) [12] (enddoku.aux)
+[10] (enddoku.gls) (enddoku.acr) [11] (enddoku.aux)
 Package logreq Info: Writing requests to 'enddoku.run.xml'.
 \openout1 = `enddoku.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 15057 strings out of 493328
- 256109 string characters out of 3143452
- 819972 words of memory out of 3000000
- 18356 multiletter control sequences out of 15000+200000
+ 14856 strings out of 493328
+ 252994 string characters out of 3143452
+ 817847 words of memory out of 3000000
+ 18155 multiletter control sequences out of 15000+200000
  7835 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,9n,51p,8847b,1153s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,9n,51p,8847b,1154s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Program/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Program/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/Program/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmr10.pfb><D:/Program/MiKTeX/fonts/type1/public/amsfonts/cm/cm
@@ -1384,9 +1324,9 @@ r12.pfb><D:/Program/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/Prog
 ram/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmti10.pfb><D:/Program/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmtt10.pfb>
-Output written on enddoku.pdf (12 pages, 345552 bytes).
+Output written on enddoku.pdf (11 pages, 347358 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
+ 82 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
