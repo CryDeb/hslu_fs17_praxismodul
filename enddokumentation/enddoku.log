@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.1)  6 JUN 2017 12:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.1)  6 JUN 2017 14:43
 entering extended mode
 **./enddoku.tex
 (enddoku.tex
@@ -720,10 +720,34 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.cfg
 File: biblatex.cfg 
 ))
-(C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\base\glossar
-ies.sty
-Package: glossaries 2017/01/19 v4.29 (NLCT)
- (D:\Program\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+
+Class scrartcl Warning: Usage of package `fancyhdr' together
+(scrartcl)              with a KOMA-Script class is not recommended.
+(scrartcl)              I'd suggest to use 
+(scrartcl)              package `scrlayer-scrpage'.
+(scrartcl)              Nevertheless, using requested
+(scrartcl)              package `fancyhdr' on input line 9.
+
+(C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+Package: fancyhdr 2016/10/11 v3.9 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip69
+\f@nch@O@elh=\skip70
+\f@nch@O@erh=\skip71
+\f@nch@O@olh=\skip72
+\f@nch@O@orh=\skip73
+\f@nch@O@elf=\skip74
+\f@nch@O@erf=\skip75
+\f@nch@O@olf=\skip76
+\f@nch@O@orf=\skip77
+)
+(C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\datetime\datetime.sty
+Package: datetime 2015/03/20 v2.60 Date Time Package
+
+(C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\fmtcount\fmtcount.sty
+Package: fmtcount 2015/05/05 v3.01
+
+(D:\Program\MiKTeX\tex\latex\xkeyval\xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (D:\Program\MiKTeX\tex\generic\xkeyval\xkeyval.tex
@@ -734,10 +758,71 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@depth=\count278
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
+(C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\fmtcount\fcprefix.sty
+Package: fcprefix 2012/09/28
+
+(C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\fmtcount\fcnumparser.st
+y
+Package: fcnumparser 2012/09/28
+\fc@digit@counter=\count279
+)) (D:\Program\MiKTeX\tex\generic\ifxetex\ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(D:\Program\MiKTeX\tex\latex\amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen107
+)
+\c@padzeroesN=\count280
+\fc@tmpcatcode=\count281
+\@DT@modctr=\count282
+\@ordinalctr=\count283
+\@orgargctr=\count284
+\@strctr=\count285
+\@tmpstrctr=\count286
+\@DT@loopN=\count287
+\@DT@X=\count288
+
+(C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\fmtcount\fc-english.def
+File: fc-english.def 2013/08/17
+))
+(C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\datetime\datetime-defau
+lts.sty
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count289
+\@month=\count290
+\@year=\count291
+\c@HOUR=\count292
+\c@HOURXII=\count293
+\c@MINUTE=\count294
+\c@TOHOUR=\count295
+\c@TOMINUTE=\count296
+\c@SECOND=\count297
+\currenthour=\count298
+\currentminute=\count299
+\currentsecond=\count300
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 308.
+
+(C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\datetime\dt-ngerman.def
+File: dt-ngerman.def 2013/09/10
+)
+\@dtctr=\count301
+\dayofyear=\count302
+\dayofweek=\count303
+LaTeX Info: Redefining \today on input line 736.
+\dt@a=\toks21
+\dt@b=\toks22
+)
+(C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\base\glossar
+ies.sty
+Package: glossaries 2017/01/19 v4.29 (NLCT)
+
 (C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\mfirstuc\mfirstuc.sty
 Package: mfirstuc 2016/07/31 v2.04 (NLCT)
-\@glsmfirst=\toks20
-\@glsmrest=\toks21
+\@glsmfirst=\toks23
+\@glsmrest=\toks24
 )
 (C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\textcase\textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -750,17 +835,12 @@ sty
 Package: datatool-base 2016/07/28 v2.27 (NLCT)
  (D:\Program\MiKTeX\tex\latex\amsmath\amsmath.sty
 Package: amsmath 2016/11/05 v2.16a AMS math features
-\@mathmargin=\skip69
+\@mathmargin=\skip78
 
 For additional information on amsmath, use the `?' option.
 (D:\Program\MiKTeX\tex\latex\amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-
-(D:\Program\MiKTeX\tex\latex\amsmath\amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks22
-\ex@=\dimen107
-))
+)
 (D:\Program\MiKTeX\tex\latex\amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen108
@@ -768,13 +848,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (D:\Program\MiKTeX\tex\latex\amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count279
+\inf@bad=\count304
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count280
-\leftroot@=\count281
+\uproot@=\count305
+\leftroot@=\count306
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count282
-\DOTSCASE@=\count283
+\classnum@=\count307
+\DOTSCASE@=\count308
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -783,32 +863,32 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen109
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count284
-\c@MaxMatrixCols=\count285
+\macc@depth=\count309
+\c@MaxMatrixCols=\count310
 \dotsspace@=\muskip11
-\c@parentequation=\count286
-\dspbrk@lvl=\count287
-\tag@help=\toks23
-\row@=\count288
-\column@=\count289
-\maxfields@=\count290
-\andhelp@=\toks24
+\c@parentequation=\count311
+\dspbrk@lvl=\count312
+\tag@help=\toks25
+\row@=\count313
+\column@=\count314
+\maxfields@=\count315
+\andhelp@=\toks26
 \eqnshift@=\dimen110
 \alignsep@=\dimen111
 \tagshift@=\dimen112
 \tagwidth@=\dimen113
 \totwidth@=\dimen114
 \lineht@=\dimen115
-\@envbody=\toks25
-\multlinegap=\skip70
-\multlinetaggap=\skip71
-\mathdisplay@stack=\toks26
+\@envbody=\toks27
+\multlinegap=\skip79
+\multlinetaggap=\skip80
+\mathdisplay@stack=\toks28
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
 (C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\substr\substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count291
+\c@su@anzahl=\count316
 )
 (C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\datatool\datatool-fp.st
 y
@@ -819,19 +899,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count292
+\actioncount=\count317
 )
 (C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count293
-\FP@xia=\count294
-\FP@xib=\count295
-\FP@xfa=\count296
-\FP@xfb=\count297
-\FP@rega=\count298
-\FP@regb=\count299
-\FP@regs=\count300
-\FP@times=\count301
+\FP@xs=\count318
+\FP@xia=\count319
+\FP@xib=\count320
+\FP@xfa=\count321
+\FP@xfb=\count322
+\FP@rega=\count323
+\FP@regb=\count324
+\FP@regs=\count325
+\FP@times=\count326
 )
 (C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -850,7 +930,7 @@ Package: fp-pas 1994/08/29
 )
 (C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count302
+\FPseed=\count327
 )
 (C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -861,27 +941,27 @@ Package: fp-upn 1996/10/21
 (C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks27
-\@dtl@tmpcount=\count303
-\dtl@tmplength=\skip72
-\dtl@sortresult=\count304
-\@dtl@numgrpsepcount=\count305
-\@dtl@datatype=\count306
-\dtl@codeA=\count307
-\dtl@codeB=\count308
-\@dtl@foreach@level=\count309
+\@dtl@toks=\toks29
+\@dtl@tmpcount=\count328
+\dtl@tmplength=\skip81
+\dtl@sortresult=\count329
+\@dtl@numgrpsepcount=\count330
+\@dtl@datatype=\count331
+\dtl@codeA=\count332
+\dtl@codeB=\count333
+\@dtl@foreach@level=\count334
 )
 (C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\base\glossar
 ies-compatible-307.sty
 Package: glossaries-compatible-307 2017/01/19 v4.29 (NLCT)
 )
-\gls@level=\count310
-\@gls@tmpb=\toks28
-\gls@tmplen=\skip73
-\glskeylisttok=\toks29
-\glslabeltok=\toks30
-\glsshorttok=\toks31
-\glslongtok=\toks32
+\gls@level=\count335
+\@gls@tmpb=\toks30
+\gls@tmplen=\skip82
+\glskeylisttok=\toks31
+\glslabeltok=\toks32
+\glsshorttok=\toks33
+\glslongtok=\toks34
 
 (C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\gloss
 ary-hypernav.sty
@@ -890,32 +970,32 @@ Package: glossary-hypernav 2017/01/19 v4.29 (NLCT)
 (C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\gloss
 ary-list.sty
 Package: glossary-list 2017/01/19 v4.29 (NLCT)
-\glslistdottedwidth=\skip74
+\glslistdottedwidth=\skip83
 )
 (C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\gloss
 ary-long.sty
 Package: glossary-long 2017/01/19 v4.29 (NLCT)
  (D:\Program\MiKTeX\tex\latex\tools\longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip75
-\LTright=\skip76
-\LTpre=\skip77
-\LTpost=\skip78
-\LTchunksize=\count311
+\LTleft=\skip84
+\LTright=\skip85
+\LTpre=\skip86
+\LTpost=\skip87
+\LTchunksize=\count336
 \LTcapwidth=\dimen116
 \LT@head=\box31
 \LT@firsthead=\box32
 \LT@foot=\box33
 \LT@lastfoot=\box34
-\LT@cols=\count312
-\LT@rows=\count313
-\c@LT@tables=\count314
-\c@LT@chunks=\count315
-\LT@p@ftn=\toks33
+\LT@cols=\count337
+\LT@rows=\count338
+\c@LT@tables=\count339
+\c@LT@chunks=\count340
+\LT@p@ftn=\toks35
 )
 Class scrartcl Info: longtable captions redefined on input line 43.
-\glsdescwidth=\skip79
-\glspagelistwidth=\skip80
+\glsdescwidth=\skip88
+\glspagelistwidth=\skip89
 )
 (C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\gloss
 ary-super.sty
@@ -924,11 +1004,11 @@ Package: glossary-super 2017/01/19 v4.29 (NLCT)
 (C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\supertabular\supertabul
 ar.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count316
+\c@tracingst=\count341
 \ST@wd=\dimen117
-\ST@rightskip=\skip81
-\ST@leftskip=\skip82
-\ST@parfillskip=\skip83
+\ST@rightskip=\skip90
+\ST@leftskip=\skip91
+\ST@parfillskip=\skip92
 \ST@pageleft=\dimen118
 \ST@headht=\dimen119
 \ST@tailht=\dimen120
@@ -944,17 +1024,17 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 (C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\gloss
 ary-tree.sty
 Package: glossary-tree 2017/01/19 v4.29 (NLCT)
-\glstreeindent=\skip84
+\glstreeindent=\skip93
 ))
 \glswrite=\write5
 \glo@main@file=\write6
 \openout6 = `enddoku.glo'.
 
-Package glossaries Info: Writing glossary file enddoku.glo on input line 11.
+Package glossaries Info: Writing glossary file enddoku.glo on input line 12.
 \glo@acronym@file=\write7
 \openout7 = `enddoku.acn'.
 
-Package glossaries Info: Writing glossary file enddoku.acn on input line 11.
+Package glossaries Info: Writing glossary file enddoku.acn on input line 12.
  (glossary/glossary.tex)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -963,37 +1043,37 @@ Package biblatex Info: ... file 'english.lbx' found.
 x
 File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
-\@quotelevel=\count317
-\@quotereset=\count318
+\@quotelevel=\count342
+\@quotereset=\count343
  (enddoku.aux)
 \openout1 = `enddoku.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 (C:\Users\z003019u\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count319
+\scratchcounter=\count344
 \scratchdimen=\dimen128
 \scratchbox=\box36
-\nofMPsegments=\count320
-\nofMParguments=\count321
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count322
+\nofMPsegments=\count345
+\nofMParguments=\count346
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count347
 \MPscratchDim=\dimen129
-\MPnumerator=\count323
-\makeMPintoPDFobject=\count324
-\everyMPtoPDFconversion=\toks35
+\MPnumerator=\count348
+\makeMPintoPDFobject=\count349
+\everyMPtoPDFconversion=\toks37
 ) (D:\Program\MiKTeX\tex\latex\oberdiek\epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1018,8 +1098,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'enddoku.bbl' found.
  (enddoku.bbl)
-Package biblatex Info: Reference section=0 on input line 19.
-Package biblatex Info: Reference segment=0 on input line 19.
+Package biblatex Info: Reference section=0 on input line 28.
+Package biblatex Info: Reference segment=0 on input line 28.
 
 (enddoku.glsdefs) (enddoku.toc)
 \tf@toc=\write8
@@ -1031,62 +1111,62 @@ Package biblatex Info: Reference segment=0 on input line 19.
 
 
 {C:/Users/z003019u/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (2.4888pt too wide) in paragraph at lines 24--25
+Overfull \hbox (2.4888pt too wide) in paragraph at lines 33--34
 \OT1/cmr/m/n/10 der medi-zinis-cher Gerate wie Com-put-er-to-mo-graphen und Ma
 g-ne-tres-o-nanz-to-mo-graphen
  []
 
 [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 39.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 48.
  (D:\Program\MiKTeX\tex\latex\base\omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 48.
  [3]
 <LabVIEWExample.png, id=22, 407.27156pt x 280.79906pt>
 File: LabVIEWExample.png Graphic file (type png)
 
 <use LabVIEWExample.png>
-Package pdftex.def Info: LabVIEWExample.png used on input line 73.
+Package pdftex.def Info: LabVIEWExample.png used on input line 82.
 (pdftex.def)             Requested size: 224.06775pt x 154.48709pt.
 
-Overfull \hbox (4.21518pt too wide) in paragraph at lines 78--83
+Overfull \hbox (4.21518pt too wide) in paragraph at lines 87--92
 [][]\OT1/cmr/m/n/10 LabVIEW ist eine grafis-
  []
 
 
-Overfull \hbox (7.16074pt too wide) in paragraph at lines 78--83
+Overfull \hbox (7.16074pt too wide) in paragraph at lines 87--92
 \OT1/cmr/m/n/10 che Pro-gram-mier-sprache,
  []
 
 
-Underfull \hbox (badness 7362) in paragraph at lines 78--83
+Underfull \hbox (badness 7362) in paragraph at lines 87--92
 \OT1/cmr/m/n/10 welche von Na-tional
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 78--83
+Underfull \hbox (badness 1028) in paragraph at lines 87--92
 \OT1/cmr/m/n/10 wird. Die Funk-tion-
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 78--83
+Underfull \hbox (badness 1546) in paragraph at lines 87--92
 \OT1/cmr/m/n/10 sweise von []Lab-VIEW
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 78--83
+Underfull \hbox (badness 1028) in paragraph at lines 87--92
 \OT1/cmr/m/n/10 ich-net wer-den. Man
  []
 
 
-Overfull \hbox (0.21626pt too wide) in paragraph at lines 78--83
+Overfull \hbox (0.21626pt too wide) in paragraph at lines 87--92
 \OT1/cmr/m/n/10 auch der Code zu finden
  []
 
 
-Underfull \hbox (badness 2626) in paragraph at lines 78--83
+Underfull \hbox (badness 2626) in paragraph at lines 87--92
 \OT1/cmr/m/n/10 ist (Siehe Fig-ure 1[]).
  []
 
@@ -1094,45 +1174,45 @@ Underfull \hbox (badness 2626) in paragraph at lines 78--83
 <SystemviewFTC.png, id=28, 585.68813pt x 293.59688pt>
 File: SystemviewFTC.png Graphic file (type png)
  <use SystemviewFTC.png>
-Package pdftex.def Info: SystemviewFTC.png used on input line 88.
+Package pdftex.def Info: SystemviewFTC.png used on input line 97.
 (pdftex.def)             Requested size: 242.7353pt x 121.67914pt.
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 93
-.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 10
+2.
 
 
-Overfull \hbox (5.99405pt too wide) in paragraph at lines 94--95
+Overfull \hbox (5.99405pt too wide) in paragraph at lines 103--104
 []\OT1/cmr/m/n/10 Im Rah-men des Umzuges
  []
 
 
-Underfull \hbox (badness 5490) in paragraph at lines 94--95
+Underfull \hbox (badness 5490) in paragraph at lines 103--104
 \OT1/cmr/m/n/10 den die Brandraume
  []
 
 
-Underfull \hbox (badness 3568) in paragraph at lines 94--95
+Underfull \hbox (badness 3568) in paragraph at lines 103--104
 \OT1/cmr/m/n/10 des Baus wurde zu-
  []
 
 
-Underfull \hbox (badness 2253) in paragraph at lines 94--95
+Underfull \hbox (badness 2253) in paragraph at lines 103--104
 \OT1/cmr/m/n/10 ware, welche fur die
  []
 
 
-Underfull \hbox (badness 7116) in paragraph at lines 94--95
+Underfull \hbox (badness 7116) in paragraph at lines 103--104
 \OT1/cmr/m/n/10 neue er-setzt. Die
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 94--95
+Underfull \hbox (badness 1953) in paragraph at lines 103--104
 \OT1/cmr/m/n/10 men Fire Test Com-
  []
 
 
-Overfull \hbox (0.5496pt too wide) in paragraph at lines 94--95
+Overfull \hbox (0.5496pt too wide) in paragraph at lines 103--104
 \OT1/cmr/m/n/10 Soft-ware hat schon viele
  []
 
@@ -1140,20 +1220,20 @@ Overfull \hbox (0.5496pt too wide) in paragraph at lines 94--95
 File: Systemgrenzen.png Graphic file (type png)
 
 <use Systemgrenzen.png>
-Package pdftex.def Info: Systemgrenzen.png used on input line 99.
+Package pdftex.def Info: Systemgrenzen.png used on input line 108.
 (pdftex.def)             Requested size: 130.70714pt x 124.3902pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
 []\OT1/cmr/m/n/10 Systemabgrenzung der
  []
 
 <filterVI.png, id=34, 225.09094pt x 150.5625pt>
 File: filterVI.png Graphic file (type png)
  <use filterVI.png>
-Package pdftex.def Info: filterVI.png used on input line 116.
+Package pdftex.def Info: filterVI.png used on input line 125.
 (pdftex.def)             Requested size: 112.03387pt x 74.93874pt.
 
-Underfull \hbox (badness 3690) in paragraph at lines 121--123
+Underfull \hbox (badness 3690) in paragraph at lines 130--132
 \OT1/cmr/m/n/10 Subpanel-Vis wird pro-gram-ma-tisch im Sub-
  []
 
@@ -1161,31 +1241,31 @@ Underfull \hbox (badness 3690) in paragraph at lines 121--123
 File: LaufzeitansichtMitRecorder.png Graphic file (type png)
 
 <use LaufzeitansichtMitRecorder.png>
-Package pdftex.def Info: LaufzeitansichtMitRecorder.png used on input line 130.
+Package pdftex.def Info: LaufzeitansichtMitRecorder.png used on input line 139.
 
 (pdftex.def)             Requested size: 186.72122pt x 123.18611pt.
  [6 <./Systemgrenzen.png> <./filterVI.png>]
-Underfull \hbox (badness 1400) in paragraph at lines 135--136
+Underfull \hbox (badness 1400) in paragraph at lines 144--145
 [][]\OT1/cmr/m/n/10 Die Im Bild 5[] dargestell-ten Pfeile
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 135--136
+Underfull \hbox (badness 1314) in paragraph at lines 144--145
 \OT1/cmr/m/n/10 gibt in-s-ge-sammt 2 Moglichkeiten der
  []
 
 
-Overfull \hbox (6.94576pt too wide) in paragraph at lines 135--136
+Overfull \hbox (6.94576pt too wide) in paragraph at lines 144--145
 \OT1/cmr/m/n/10 Mes-sages an das Haupt-pro-gramm gesendet
  []
 
 
-Underfull \hbox (badness 5203) in paragraph at lines 135--136
+Underfull \hbox (badness 5203) in paragraph at lines 144--145
 \OT1/cmr/m/n/10 wer-den konnen. Dieses wiederum
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 135--136
+Underfull \hbox (badness 1024) in paragraph at lines 144--145
 \OT1/cmr/m/n/10 gestrichel-ten Pfeilen dargestellt) kom-
  []
 
@@ -1193,71 +1273,86 @@ Underfull \hbox (badness 1024) in paragraph at lines 135--136
 File: LauftzeitansichtRecorderNah.png Graphic file (type png)
 
 <use LauftzeitansichtRecorderNah.png>
-Package pdftex.def Info: LauftzeitansichtRecorderNah.png used on input line 139
+Package pdftex.def Info: LauftzeitansichtRecorderNah.png used on input line 148
 .
 (pdftex.def)             Requested size: 108.29579pt x 110.48851pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
 []\OT1/cmr/m/n/10 Kommunikation Main
  []
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 14
-4.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 15
+3.
 
 [7 <./LaufzeitansichtMitRecorder.png> <./LauftzeitansichtRecorderNah.png>]
 <DBShemaEasy2.png, id=46, 563.85657pt x 685.8122pt>
 File: DBShemaEasy2.png Graphic file (type png)
  <use DBShemaEasy2.png>
-Package pdftex.def Info: DBShemaEasy2.png used on input line 153.
-(pdftex.def)             Requested size: 205.39449pt x 249.8223pt.
+Package pdftex.def Info: DBShemaEasy2.png used on input line 162.
+(pdftex.def)             Requested size: 179.25078pt x 218.02026pt.
 
-Underfull \hbox (badness 2165) in paragraph at lines 159--160
-[]\OT1/cmr/m/n/10 Da wie schon erwahnt Soft-
+Overfull \hbox (15.5013pt too wide) in paragraph at lines 168--169
+[]\OT1/cmr/m/n/10 Da wie schon erwahnt Soft-ware ubernommen
  []
 
 
-Underfull \hbox (badness 6220) in paragraph at lines 159--160
-\OT1/cmr/m/n/10 ten zu gewahrleisten wurde
+Overfull \hbox (9.11243pt too wide) in paragraph at lines 171--172
+[]\OT1/cmr/m/n/10 Im Fig-ure 7[] wur-den zusam-mengehorende
  []
 
 
-Underfull \hbox (badness 3769) in paragraph at lines 162--163
-\OT1/cmr/m/n/10 zusam-men-gelegt. Die Blau
+Underfull \hbox (badness 1097) in paragraph at lines 171--172
+\OT1/cmr/m/n/10 suellen Kanale in der Vi-sual Tabelle
  []
 
 
-Underfull \hbox (badness 3977) in paragraph at lines 162--163
-\OT1/cmr/m/n/10 ist. An diesen Physikalis-
+Underfull \hbox (badness 2662) in paragraph at lines 171--172
+\OT1/cmr/m/n/10 abgelegt. Hin-ter diesem sicht-baren
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 162--163
-\OT1/cmr/m/n/10 chen Kanal sind die Meldee-
+Underfull \hbox (badness 1215) in paragraph at lines 171--172
+\OT1/cmr/m/n/10 Kanal liegt ein Physikalis-cher Kanal,
+ []
+
+
+Underfull \hbox (badness 5388) in paragraph at lines 171--172
+\OT1/cmr/m/n/10 welche in der Phys-i-cal Tabelle zu
+ []
+
+
+Underfull \hbox (badness 2990) in paragraph at lines 171--172
+\OT1/cmr/m/n/10 Kanal sind die Meldee-in-for-ma-tio-nen,
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 171--172
+\OT1/cmr/m/n/10 Flache zu finden sind, angeschlossen,
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 171--172
+\OT1/cmr/m/n/10 sowie die Hard-ware Kom-mu-nika-tion-
  []
 
 [8 <./DBShemaEasy2.png>]
-Underfull \hbox (badness 6510) in paragraph at lines 177--177
+Underfull \hbox (badness 6510) in paragraph at lines 185--185
 []\OT1/cmr/m/n/10 DB-Erstellen (In-stal-lieren und DB
  []
 
 
-Underfull \hbox (badness 7613) in paragraph at lines 183--183
+Underfull \hbox (badness 7613) in paragraph at lines 191--191
 []\OT1/cmr/m/n/10 Recorder Im-ple-men-ta-tion (Kom-mu-
  []
 
 
-Underfull \hbox (badness 7221) in paragraph at lines 185--185
+Underfull \hbox (badness 7221) in paragraph at lines 193--193
 []\OT1/cmr/m/n/10 Graph Screen In-be-trieb-nahme mit
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 186--186
-[]\OT1/cmr/m/n/10 Fertigstellung des Soft-ware Skelettes
- []
-
-
-Underfull \hbox (badness 1178) in paragraph at lines 188--188
+Underfull \hbox (badness 1178) in paragraph at lines 196--196
 []\OT1/cmr/m/n/10 Inbetriebnahme (Ge-brauch der Soft-
  []
 
@@ -1267,13 +1362,13 @@ Package logreq Info: Writing requests to 'enddoku.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14877 strings out of 493328
- 253199 string characters out of 3143452
- 819847 words of memory out of 3000000
- 18167 multiletter control sequences out of 15000+200000
+ 15739 strings out of 493328
+ 266401 string characters out of 3143452
+ 843896 words of memory out of 3000000
+ 18998 multiletter control sequences out of 15000+200000
  10929 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,9n,58p,8847b,1455s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,10n,58p,8847b,1456s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Program/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Program/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/Program/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmr10.pfb><D:/Program/MiKTeX/fonts/type1/public/amsfonts/cm/cm
@@ -1284,7 +1379,7 @@ ssbx10.pfb><D:/Program/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Pro
 gram/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/Program/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmti8.pfb><D:/Program/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmtt10.pfb><D:/Program/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on enddoku.pdf (11 pages, 397271 bytes).
+Output written on enddoku.pdf (11 pages, 398366 bytes).
 PDF statistics:
  102 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

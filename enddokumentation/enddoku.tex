@@ -5,7 +5,8 @@
 \usepackage{hhline}
 \usepackage{url}
 \usepackage[backend=biber,style=numeric-comp]{biblatex}
-
+\usepackage{fancyhdr}
+\usepackage[ngerman]{datetime}
 
 \usepackage[acronym, toc]{glossaries}
 \makeglossaries
@@ -16,6 +17,14 @@
 \title{Universal data acquisition}
 \subtitle{FS17 Praxismodul}
 \renewcommand{\contentsname}{Inhaltsverzeichnis}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Dane Wicki}
+\rhead{\today}
+\chead{FS17 Praxismodul}
+\cfoot{\thepage}
+
 \begin{document}
 \maketitle
 \tableofcontents
@@ -148,9 +157,9 @@ Die Umsetztung setzte voraus, dass das Aufzeichnen aller Daten in einem immer gl
 \subsubsection{Bestehende Datenbank}
 Mit der Implementierung der FTC Software wurde auch eine eigens dafür entwickelte Datenbank aufgebaut. Diese ist in sich enorm Komplex und sehr verstrickt, weshalb hier nicht viel näher auf diese eingegangen wird.
 \subsubsection{Datenbank}
-\begin{wrapfigure}{r}{0.60\textwidth}
+\begin{wrapfigure}{r}{0.50\textwidth}
 	\begin{center}
-		\includegraphics[width=0.55\textwidth]{DBShemaEasy2.png}
+		\includegraphics[width=0.48\textwidth]{DBShemaEasy2.png}
 		\caption{Vereinfachtes DB-Schema für die UDA}
 		\label{fig:DBSchemaUDA}
 	\end{center}
@@ -161,9 +170,8 @@ Da wie schon erwähnt Software übernommen wird, so etwa die gesamte Hardwareabs
 
 Im Figure \ref{fig:DBSchemaUDA} wurden zusammengehörende Tabellen farblich zusammengelegt. Die Blau markierten Tabellen dienen dem einzelnen versuch. So werden alle Visuellen Kanäle in der Visual Tabelle abgelegt. Hinter diesem sichtbaren Kanal liegt ein Physikalischer Kanal, welche in der Physical Tabelle zu finden ist. An diesen Physikalischen Kanal sind die Meldeeinformationen, welche allesamt in der Grün Markierten Fläche zu finden sind, angeschlossen, sowie die Hardware Kommunikationsinformationen, welche allesamt in der Gelb Markierten Fläche zu finden sind, angeschlossen. In allem erhält man so einen Testaufbau, welcher Dynamisch aus vordefinierten Geräten sowie Hardware Abstraktionen zusammengesetzt werden kann, in dem man die Blau markierten Tabellen verändert.
 \section{Projektergebnis}
-Es konnte ein Skelett einer Neuen Datenerfassungssoftware erstellt werden, welche für in weiteren Schritten verbessert und erweitert wird. Die Software wurde schon nach dem ersten erfolgreichen Datenaufzeichnen Angewendet und wird im Moment für 2 Testaufbauten betrieben. Sie speichert die Daten persistent und erstellt auswertbare Excel Dateien, mit denen die Testdesigner Auswertungen zu den Tests machen können.
-Eine Installationsanleitung erleichtert zudem die Installation, da die Anleitung Schritt für Schritt mit Bildern erklärt wird.
-Die Softwaredokumentation sowie die Bedienungsanleitung wurden in Absprache mit den Vorgesetzten im Moment noch klein gehalten, da Sie zuerst das Skelett der Software wollten. Der Grund für die Schnelle Einführung der Software, war eine Anpassung einer UL Norm, welche dafür sorgte, dass die Melder mit einer Neuen Apparatur möglichst schon zu beginn des Projektes getestet werden sollten.
+Es konnten die wesentliche Komponenten für die Aufzeichnung der Daten, sowie das Anzeigen jener Daten in einer neuen Datenerfassungssoftware erstellt werden. Diese Komponente werden in weiteren Schritten verbessert und erweitert. Die Software wurde schon nach den ersten erfolgreichen Datenaufzeichnungen verwendet und wird ist im Moment bei 2 Testaufbauten in betrieb. Sie speichert die Daten persistent und erstellt auswertbare Excel Dateien, mit welchen die Testdesigner Auswertungen machen können.
+Eine Installationsanleitung erleichtert zudem die Installation, da die Anleitung schritt für schritt mit Bildern erklärt wird. Die Softwaredokumentation sowie die Bedienungsanleitung wurden in Absprache mit den Vorgesetzten im Moment noch klein gehalten, da die Notwendigkeit einer Funktionierenden Aufzeichnung die Dokumentation in den Hintergrund drängte. Der Grund für die unübliche Dringlichkeit, der Erstellung einer Funktionierenden Aufzeichnungskomponente, lag an einer Anpassung einer UL Norm, welche dafür sorgte, dass Melder mit einer neuen Apparatur, ohne vorhanden Datenerfassungssoftware, möglichst frühzeitig im Projekt getestet werden sollte.
 
 \section{Arbeitsjournal}
 \begin{center}
@@ -183,7 +191,7 @@ Die Softwaredokumentation sowie die Bedienungsanleitung wurden in Absprache mit 
 		\hline Recorder Implementation (Kommunikation zu Hardware Komponente) & W9 - W10 & 3.5 \\
 		\hline Implementation Excel Export & W10 - W11 & 3 \\
 		\hline Graph Screen Inbetriebnahme mit Kommunikation & W11 - W12 & 3 \\
-		\hline Fertigstellung des Software Skelettes (Zusammenführen aller Komponente) & W13 & 2 \\
+		\hline Fertigstellung der Grundfunktionalität (Zusammenführen der Komponente) & W13 & 2 \\
 		\hline Installer erstellen & W13 - W14 & 1 \\
 		\hline Inbetriebnahme (Gebrauch der Software mit Ankunft des neuen Aufbaus) & W14 & 3 \\
 		\hline Installationsanleitung & W14 & 1 \\
