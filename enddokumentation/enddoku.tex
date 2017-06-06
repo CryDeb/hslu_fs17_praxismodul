@@ -21,20 +21,17 @@
 \tableofcontents
 \section{Einleitung, Problembeschreibung}
 \subsection{Geschäftsfeld der Firma}
-Die Siemens AG ist ein führender internationaler Technologiekonzern, der seit mehr als 165 Jahren für technische Leistungsfähigkeit, Innovation, Qualität, Zuverlässigkeit und Internationalität steht. Das Unternehmen ist in mehr als 200 Ländern aktiv, und zwar schwerpunktmäßig auf den Gebieten Elektrifizierung, Automatisierung und Digitalisierung. Siemens ist weltweit einer der größten Hersteller energieeffizienter ressourcenschonender Technologien. Das Unternehmen ist einer der führenden Anbieter effizienter Energieerzeugungs- und Energieübertragungslösungen, Pionier bei Infrastrukturlösungen sowie bei Automatisierungs-, Antriebs- und Softwarelösungen für die Industrie. Darüber hinaus ist das Unternehmen ein führender Anbieter bildgebender medizinischer Geräte wie Computertomographen und Magnetresonanztomographen sowie in der Labordiagnostik und klinischer IT. \cite{website:siemens}
+Die Siemens AG ist ein führender internationaler Technologiekonzern, der seit mehr als 165 Jahren für technische Leistungsfähigkeit, Innovation, Qualität, Zuverlässigkeit und Internationalität steht. Das Unternehmen ist in mehr als 200 Ländern aktiv, und zwar schwerpunktmäßig auf den Gebieten Elektrifizierung, Automatisierung und Digitalisierung. Siemens ist weltweit einer der größten Hersteller energieeffizienter ressourcenschonender Technologien. Das Unternehmen ist einer der führenden Anbieter effizienter Energieerzeugungs- und Energieübertragungslösungen, Pionier bei Infrastrukturlösungen sowie bei Automatisierungs-, Antriebs- und Softwarelösungen für die Industrie. Darüber hinaus ist das Unternehmen ein führender Anbieter bildgebender medizinischer Geräte wie Computertomographen und Magnetresonanztomographen sowie in der Labordiagnostik und klinischer IT.  \footfullcite{website:siemens}
 \subsection{Projektkontext}
-Die Firma Siemens BT in Zug ist zuständig für die Entwicklung von Brandmeldern.
+Die Firma Siemens BT im Bereich fire safety in Zug ist zuständig für die Entwicklung von Brandmeldern.
 Um die Qualität der Brandmelder zu gewährleisten, werden diese unter Zuhilfenahme
-verschiedener Apparaturen und Testaufbauten getestet. Dies geschieht bei vielen Aufbauten automatisch und mit konsistenter Aufzeichnung der Daten, welche der Melder und etwaige Referenz-Geräte erzeugen. Es gibt jedoch weiterhin aufbauten, bei welchen die Aufzeichnung weder Automatisch noch Konsistent gespeichert werden kann oder nur unter grossen Anstrengungen der Arbeitenden. Diesen Zustand gilt es nun zu verbessern.
-Dazu soll eine Software entwickelt werden, die aus verschiedenen Ressourcen (verschiedenen
-Datenquellen) die Daten sammelt und diese in eine auswertbare Excel-Datei exportiert. Dies
-Software basiert auf einer bestehenden Software, welche für das Brandlabor entwickelt wurde.
-Es sollen dabei Bestandteile dieser Bestehenden Software verwendet werden.
-\subsection{Problembeschreibung}
+verschiedener Apparaturen und Testaufbauten getestet. Dies geschieht bei grösseren Aufbauten automatisch und mit konsistenter Aufzeichnung der Daten, welche der Melder und etwaige Referenz-Geräte erzeugen. Oftmals gibt es jedoch individuelle und den unterschiedlichsten Aufgabestellungen folgende Labor Aufbauten, bei welchen die Aufzeichnung nur unter grossen Anstrengungen der Arbeitenden auswertbare Ergebnisse liefern.
 \subsection{Projektziele}
-Bei vielen kleinen Aufbauten ist keine oder nur teilweise Software, welche die zu sammelnden Daten zusammenträgt. Dieser Mangel an Software führt dazu, dass nur auf umständliche Art und weise getestet werden kann. Dies stellt eines der Probleme dar. Dieser Umstand führt zudem zu einem erhöhten Zeitaufwand bei einer Durchführung eines Testdurchlaufes. Hinzu kommt, dass es einige Aufbauten gibt, welche sehr selten bis nie gebraucht werden. Der fehlende Zyklische Gebrauch jener Aufbauten führt zu einer erhöhten Einarbeitungsperiode, da die Person die Handhabung der Aufzeichnung zuerst wieder erlernen muss. Diese Einarbeitungsperiode sowie der erhöhte Zeitaufwand für einen Testdurchlauf soll durch eine Vereinheitlichung beseitigt werden. Dazu soll die Software an möglichst allen Aufbauten eingesetzt werden können, welche keine eigene Spezielle Software besitzen.
+Das Hauptziel des Projektinhaltes ist es mögliche Verbesserungen sowie Ansprüche für die vielen kleinen und individuellen aufbauten zu finden und auszuschöpfen. Das heisst, die an verschiedenen Arbeitsplätze zu findende individuellen Aufbauten sowie deren Software Umgebung, sollen durch eine universelle, gemeinsam Nutzbare und flexible Datenerfassungslösung ersetzt werden.
 
-Ein weiteres Problem stellt eine Anpassung einer \gls{UL}-Norm dar. Diese Anpassung betrifft einige Siemens Brandmelder, welche schon im Feld sind. Da die Siemens bis anhin keine Möglichkeiten hat diese Angepasste Norm zu testen, wurde eine neue Testapparatur bestellt. Im Rahmen der Bestellung wurde jedoch nur die Apparatur zum Testen bestellt, keine Passende Software, welche alle Daten während eines Testlaufes aufzeichnen könnte. Ziel ist es die Software mit Ankunft der Apparatur in Betrieb nehmen zu können.
+Weiter ist es das Ziel, dass der Endanwender eine Möglichkeit bekommt in einem vernünftigem Zeitrahmen eine Auswertbare Datei zu erhalten.
+
+Eine weitere Herausforderung stellt die Erneuerung von EN und UL-Normen dar, nach welchen alle Produkte und Melder nach veränderten Ansprüche getestet und geprüft werden müssen. Da Siemens BT fire safety bis anhin die zukünftig Inkrafttreten Anforderungen noch nicht in einem Optimierten Prozess Testen konnte, wurde ein neuer Testaufbau bestellt, bei welchem diese Optimierungen mit zum Zuge kommen. Es soll erreicht werden, dass die zu erstellende Testsoftware gemäss den zeitlichen Ansprüchen der Produktentwicklung Projekte rechtzeitig mit dem neuen Testaufbau in Betrieb genommen werden kann.
 \section{Projektergebnisse}
 \subsection{Ergebnisse}
 Die folgenden Ergebnisse müssen im Rahmen dieses Projektes erarbeitet werden:
@@ -82,27 +79,28 @@ Für die Entwicklung wurde folgende Software verwendet:
 \newline
 Die mangelden fähigkeit zu Objektorientierter Programmierung, fürt zu dem Umstand, dass an machen orten mit einer anderen Art und Weise angegangen werden muss, wie man es sich von Objektorientierten Programmieren gewohnt ist. Zudem sind \gls{LabVIEW} Programme nicht sonderlich schnell, weshalb besonders stark auf die Performance zu achten ist.
 \newline
-Eine weitere Sonderheit ist die Verknüpfung von GUIs mit dem Programm, es besteht eine sehr starke verknüpfung zwischen der funktion und dem GUI.Dies bietet einige Vor- wie auch Nachteile. So wird in diesem Projekt stark mit \gls{Subpanel}s gearbeitet, welches die Möglichkeit liefert dynamisch GUIs von anderen\gls{VI}s in das laufende Programm einzubinden.  \cite{website:labView} 
+Eine weitere Sonderheit ist die Verknüpfung von GUIs mit dem Programm, es besteht eine sehr starke verknüpfung zwischen der funktion und dem GUI.Dies bietet einige Vor- wie auch Nachteile. So wird in diesem Projekt stark mit \gls{Subpanel}s gearbeitet, welches die Möglichkeit liefert dynamisch GUIs von anderen\gls{VI}s in das laufende Programm einzubinden.  \footfullcite{website:labView} 
 
 
 \subsection{Software}
-\begin{wrapfigure}{l}{0.65\textwidth}
+\begin{wrapfigure}{l}{0.7\textwidth}
 	\begin{center}
-		\includegraphics[width=0.6\textwidth]{SystemviewFTC}
+		\includegraphics[width=0.65\textwidth]{SystemviewFTC}
 		\caption{Systemview des Fire Test Commander}
 		\label{fig:SystemViewFTC}
 	\end{center}
 \end{wrapfigure}
 \subsubsection{Bestehende Software}
 Im Rahmen des Umzuges der Testabteilung, wurden die Brandräume neu gebaut. Während des Baus wurde zudem die veraltete Software, welche für die Alten Brandräume erstellt wurde, durch eine neue ersetzt. Die neu erstellte Software, welche unter dem Namen Fire Test Commander fortan nur noch \acrshort{ftc}, wurde mit \gls{LabVIEW} erstellt. Diese Software hat schon viele Ansätze, welche für die im Rahmen dieses Projektes zu implementierendes Programm angewandt und übernommen werden können. Der \acrshort{ftc} bietet schon eine Struktur, um mit möglichst geringen aufwand Hardwarekomponenten hinzuzufügen (Siehe Figure \ref{fig:SystemViewFTC}). Diese Struktur, dient zudem gleich als Vorlage für die neu zu entwickelnde Software.
-\begin{wrapfigure}{r}{0.5\textwidth}
-		\begin{center}
-			\includegraphics[width=0.35\textwidth]{Systemgrenzen}
-			\caption{Systemabgrenzung der einzelnen Komponenten}
-			\label{fig:SystemView}			
-		\end{center}
-\end{wrapfigure}
+\newpage
 \subsubsection{Systemgrenzen}
+\begin{wrapfigure}{r}{0.4\textwidth}
+	\begin{center}
+		\includegraphics[width=0.35\textwidth]{Systemgrenzen}
+		\caption{Systemabgrenzung der einzelnen Komponenten}
+		\label{fig:SystemView}			
+	\end{center}
+\end{wrapfigure}
 Da die Hardware Abstraktion komplett von der bestehenden Software übernommen werden kann, fällt diese aus dem Projekt heraus. Nur die UDA selber, soll als eigenständige Software entwickelt werden. Die Abgrenzung des Systemes kann in folgender Abbildung (Figure \ref{fig:SystemView}) nachvollzogen werden.
  Die Datenbank ist eine MySQL Datenbank, welche mithilfe des ODBC ANSII Treibers Angesprochen werden kann. Die Schnittstelle wird von \gls{LabVIEW} zur Verfügung gestellt und musste auch nicht selber Implementiert werden.
 \subsubsection{Komponente UDA}
@@ -113,12 +111,6 @@ Das Hauptprogramm (Main) besteht aus zwei parallelen Tasks
 	\item und der Verarbeitungstask (Queued Message Handler), der die Aufträge aus seiner Message-Queue entnimmt und der Reihe nach abarbeitet.
 \end{itemize}
 
-Die Bedienoberfläche umfasst vier Subpanel-Vis. Diese werden im Hauptprogramm aufgerufen und laufen parallel zu den beiden Tasks des Hauptprogrammes. Das \gls{Frontpanel} eines dieser Subpanel-Vis wird programmatisch im Subpanel des Hauptprogrammes sichtbar gemacht.  
-Jedes dieser Subpanel-Vis besitzt einen eigenen Event-Handler der auf Eingaben des Anwenders reagiert. Sowohl der Event-Handler des Hauptprogrammes wie auch diejenigen der Subpanel-Vis senden Messages an die Message-Queue der Verarbeitungstask im Hauptprogramm (In der Abbildung \ref{fig:LaufzeitansichtUDA} mit grünen durchgezogenen Pfeilen dargestellt).
-
-
-
-
 \begin{wrapfigure}{r}{0.4\textwidth}
 	\begin{center}
 		\includegraphics[width=0.3\textwidth]{filterVI}
@@ -126,15 +118,22 @@ Jedes dieser Subpanel-Vis besitzt einen eigenen Event-Handler der auf Eingaben d
 		\label{fig:filterVI}
 	\end{center}
 \end{wrapfigure}
-Die Im Bild \ref{fig:LaufzeitansichtUDA} dargestellten Pfeile stellen die Kommunikationswege dar. Es gibt insgesammt 2 Möglichkeiten der Kommunikation. Wie oben geschrieben gibt es die Message-Queue, mit welcher Messages an das Hauptprogramm gesendet werden können. Dieses wiederum kann mit allen anderen über ein User-Event (In der Abbildung \ref{fig:LaufzeitansichtUDA} mit orangen gestrichelten Pfeilen dargestellt) kommunizieren. Die User-Events werden an alle Event-Handler gesendet (Broadcast). Mit Hilfe eines Filter-Vis (siehe Figure \ref{fig:filterVI}) kann der empfangende Event-Handler die Events aber filtern, sodass er nur Events mit der richtigen Adresse (ID) verarbeitet.  \cite{tech:ftc} 
+Die Bedienoberfläche umfasst vier Subpanel-Vis. Diese werden im Hauptprogramm aufgerufen und laufen parallel zu den beiden Tasks des Hauptprogrammes. Das \gls{Frontpanel} eines dieser Subpanel-Vis wird programmatisch im Subpanel des Hauptprogrammes sichtbar gemacht.  
+Jedes dieser Subpanel-Vis besitzt einen eigenen Event-Handler der auf Eingaben des Anwenders reagiert. Sowohl der Event-Handler des Hauptprogrammes wie auch diejenigen der Subpanel-Vis senden Messages an die Message-Queue der Verarbeitungstask im Hauptprogramm (In der Abbildung \ref{fig:LaufzeitansichtUDA} mit grünen durchgezogenen Pfeilen dargestellt).
 
-\begin{figure}[htbp]
-	\centering
-	\includegraphics[width=0.8\textwidth]{LaufzeitansichtMitRecorder}
-	\caption{Laufzeitansicht der GUI Tasks und deren Kommunikation}
-	\label{fig:LaufzeitansichtUDA}
-\end{figure}
-\newpage
+
+
+
+
+\begin{wrapfigure}{l}{0.5\textwidth}
+	\begin{center}
+		\includegraphics[width=0.5\textwidth]{LaufzeitansichtMitRecorder}
+		\caption{Laufzeitansicht der GUI Tasks und deren Kommunikation}
+		\label{fig:LaufzeitansichtUDA}
+	\end{center}
+\end{wrapfigure}
+Die Im Bild \ref{fig:LaufzeitansichtUDA} dargestellten Pfeile stellen die Kommunikationswege dar. Es gibt insgesammt 2 Möglichkeiten der Kommunikation. Wie oben geschrieben gibt es die Message-Queue, mit welcher Messages an das Hauptprogramm gesendet werden können. Dieses wiederum kann mit allen anderen über ein User-Event (In der Abbildung \ref{fig:LaufzeitansichtUDA} mit orangen gestrichelten Pfeilen dargestellt) kommunizieren. Die User-Events werden an alle Event-Handler gesendet (Broadcast). Mit Hilfe eines Filter-Vis (siehe Figure \ref{fig:filterVI}) kann der empfangende Event-Handler die Events aber filtern, sodass er nur Events mit der richtigen Adresse (ID) verarbeitet.  \footfullcite{tech:ftc} 
+
 \begin{wrapfigure}{r}{0.4\textwidth}
 	\begin{center}
 		\includegraphics[width=0.29\textwidth]{LauftzeitansichtRecorderNah}
@@ -169,7 +168,7 @@ Die Softwaredokumentation sowie die Bedienungsanleitung wurden in Absprache mit 
 \section{Arbeitsjournal}
 \begin{center}
 	\begin{tabular}{p{6cm} | l | r}
-		\textbf{Tätigkeit} & \textbf{Zeitraum} & \textbf{Aufwand} \\ &&\textbf{(t a 8h)}\\
+		\textbf{Tätigkeit} & \textbf{Zeitraum} & \textbf{Aufwand} \\ &&\textbf{(d a 8h)}\\
 		\hline Analyse der Anforderungen & W1 & 1 \\
 		\hline Einarbeit in die Bestehende Software & W1 - W2 & 4 \\
 		\hline Planung & W3 & 2.5 \\
@@ -193,13 +192,7 @@ Die Softwaredokumentation sowie die Bedienungsanleitung wurden in Absprache mit 
 	\end{tabular}
 \end{center}
 \section{Fazit}
-Für mich war und ist die UDA ein enorm grosses Projekt, welches mich sicher noch ein weiteres Jahr beschäftigen wird, da es noch viele Features zu implementieren gilt.
-
-Ich muss jedoch gestehen, ich habe die Arbeit unterschätzt. Es gab ja Architektonisch schon eine Software von der ich Komponenten und Teile übernehmen konnte, so stellte mir \gls{LabVIEW} jedoch sehr viele Hindernisse in den Weg. Bei allen Objekte, welche ich von der bestehenden Software übernehmen wollte musste ich viele Teile der Software neu implementieren, da \gls{LabVIEW} viele Probleme mit Abhängigkeiten bereitete.
-
-Weiter hatte ich einige Schwierigkeiten, bis ich das Aufzeichnen der Daten hingekriegt habe. Hier half jedoch, dass die Hardwarekomponenten schon klar eine Schnittstelle definiert hatten. Es dauerte jedoch sehr lange bis ich eine passende Lösung gefunden habe, da ich für die Integrität des Lesens, also das die Software wirklich immer in einem gewissen Zeitintervall die Daten speichert. Da ich in dieser Funktion einen eigenen Task erstellen musste und \gls{LabVIEW} hier auch so seine schwächen hat.
-
-Als Fazit für mich muss ich leider sagen, dass ich für Projekte dieser Grössenordung dringend von \gls{LabVIEW} abrate. Man hat zwar schnell das Skelett des GUIs und eine gewisse Grundfunktionalität, jedoch lässt der Mangel an Wartbarkeit die Software Komplexität ins unermessliche steigen. Denn obwohl \gls{LabVIEW} inzwischen OOP und unit Tests kennt, sind diese nur unzureichend brauchbar.
+Für mich war und ist die UDA ein enorm grosses Projekt, welches mich sicher noch ein weiteres Jahr beschäftigen wird, da es noch viele Features zu implementieren gilt. Ich muss jedoch gestehen, ich habe die Arbeit unterschätzt. Es gab ja Architektonisch schon eine Software von der ich Komponenten und Teile übernehmen konnte, so stellte mir \gls{LabVIEW} jedoch sehr viele Hindernisse in den Weg. Bei allen Objekte, welche ich von der bestehenden Software übernehmen wollte musste ich viele Teile der Software neu implementieren, da \gls{LabVIEW} viele Probleme mit Abhängigkeiten bereitete. Weiter hatte ich einige Schwierigkeiten, bis ich das Aufzeichnen der Daten hingekriegt habe. Hier half jedoch, dass die Hardwarekomponenten schon klar eine Schnittstelle definiert hatten. Es dauerte jedoch sehr lange bis ich eine passende Lösung gefunden habe, da ich für die Integrität des Lesens, also das die Software wirklich immer in einem gewissen Zeitintervall die Daten speichert, für jede Hardware Komponente einen eigenen Thread erstellen musste und \gls{LabVIEW} hier auch so seine Eigenheiten aufweist, welche ich beachten musste. Als Fazit für mich muss ich leider sagen, dass ich persönlich im Moment für Projekte dieser Grössenordung von \gls{LabVIEW} abraten würde. Denn obwohl man schnell das Skelett des GUIs und eine gewisse Grundfunktionalität hat, lässt der Mangel an Wartbarkeit die Software Komplexität steigen. \gls{LabVIEW} unterstützt zwar inzwischen OOP und unit Tests, so sind diese jedoch im Moment noch nicht ausgereift, und lassen die Verwendung teilweise nur eingeschränkt zu.
 \section{Bestätigung Arbeitgeber}
 \begin{center}
 	\begin{tabular}{p{5.5cm} p{5.5cm}}

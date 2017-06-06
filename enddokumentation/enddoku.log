@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.1)  29 MAY 2017 16:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.1)  6 JUN 2017 12:18
 entering extended mode
 **./enddoku.tex
 (enddoku.tex
@@ -1021,312 +1021,272 @@ Package biblatex Info: ... file 'enddoku.bbl' found.
 Package biblatex Info: Reference section=0 on input line 19.
 Package biblatex Info: Reference segment=0 on input line 19.
 
-(enddoku.glsdefs) (enddoku.toc [1
+(enddoku.glsdefs) (enddoku.toc)
+\tf@toc=\write8
+\openout8 = `enddoku.toc'.
+
+ [1
 
 \openout5 = `enddoku.ist'.
 
 
-{C:/Users/z003019u/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
-\tf@toc=\write8
-\openout8 = `enddoku.toc'.
-
-
+{C:/Users/z003019u/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Overfull \hbox (2.4888pt too wide) in paragraph at lines 24--25
 \OT1/cmr/m/n/10 der medi-zinis-cher Gerate wie Com-put-er-to-mo-graphen und Ma
 g-ne-tres-o-nanz-to-mo-graphen
  []
 
 [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 42.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 39.
  (D:\Program\MiKTeX\tex\latex\base\omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
  [3]
-<LabVIEWExample.png, id=16, 407.27156pt x 280.79906pt>
+<LabVIEWExample.png, id=22, 407.27156pt x 280.79906pt>
 File: LabVIEWExample.png Graphic file (type png)
 
 <use LabVIEWExample.png>
-Package pdftex.def Info: LabVIEWExample.png used on input line 76.
+Package pdftex.def Info: LabVIEWExample.png used on input line 73.
 (pdftex.def)             Requested size: 224.06775pt x 154.48709pt.
 
-Overfull \hbox (4.21518pt too wide) in paragraph at lines 81--86
+Overfull \hbox (4.21518pt too wide) in paragraph at lines 78--83
 [][]\OT1/cmr/m/n/10 LabVIEW ist eine grafis-
  []
 
 
-Overfull \hbox (7.16074pt too wide) in paragraph at lines 81--86
+Overfull \hbox (7.16074pt too wide) in paragraph at lines 78--83
 \OT1/cmr/m/n/10 che Pro-gram-mier-sprache,
  []
 
 
-Underfull \hbox (badness 7362) in paragraph at lines 81--86
+Underfull \hbox (badness 7362) in paragraph at lines 78--83
 \OT1/cmr/m/n/10 welche von Na-tional
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 81--86
+Underfull \hbox (badness 1028) in paragraph at lines 78--83
 \OT1/cmr/m/n/10 wird. Die Funk-tion-
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 81--86
+Underfull \hbox (badness 1546) in paragraph at lines 78--83
 \OT1/cmr/m/n/10 sweise von []Lab-VIEW
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 81--86
+Underfull \hbox (badness 1028) in paragraph at lines 78--83
 \OT1/cmr/m/n/10 ich-net wer-den. Man
  []
 
 
-Overfull \hbox (0.21626pt too wide) in paragraph at lines 81--86
+Overfull \hbox (0.21626pt too wide) in paragraph at lines 78--83
 \OT1/cmr/m/n/10 auch der Code zu finden
  []
 
 
-Underfull \hbox (badness 2626) in paragraph at lines 81--86
+Underfull \hbox (badness 2626) in paragraph at lines 78--83
 \OT1/cmr/m/n/10 ist (Siehe Fig-ure 1[]).
  []
 
 [4 <./LabVIEWExample.png>]
-<SystemviewFTC.png, id=22, 585.68813pt x 293.59688pt>
+<SystemviewFTC.png, id=28, 585.68813pt x 293.59688pt>
 File: SystemviewFTC.png Graphic file (type png)
  <use SystemviewFTC.png>
-Package pdftex.def Info: SystemviewFTC.png used on input line 91.
-(pdftex.def)             Requested size: 224.06775pt x 112.32059pt.
+Package pdftex.def Info: SystemviewFTC.png used on input line 88.
+(pdftex.def)             Requested size: 242.7353pt x 121.67914pt.
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 96
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 93
 .
 
 
-Package wrapfig Warning: Collision between wrapping environments on input line 
-98.
-
-<Systemgrenzen.png, id=23, 405.01312pt x 385.44pt>
-File: Systemgrenzen.png Graphic file (type png)
- <use Systemgrenzen.png>
-Package pdftex.def Info: Systemgrenzen.png used on input line 100.
-(pdftex.def)             Requested size: 130.70714pt x 124.3902pt.
-
-Overfull \hbox (0.87643pt too wide) in paragraph at lines 97--104
-\OT1/cmr/m/n/10 die Brandraume neu gebaut.
+Overfull \hbox (5.99405pt too wide) in paragraph at lines 94--95
+[]\OT1/cmr/m/n/10 Im Rah-men des Umzuges
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 97--104
-\OT1/cmr/m/n/10 zu-dem die ve-r-al-tete Soft-
+Underfull \hbox (badness 5490) in paragraph at lines 94--95
+\OT1/cmr/m/n/10 den die Brandraume
  []
 
 
-Underfull \hbox (badness 3907) in paragraph at lines 97--104
-\OT1/cmr/m/n/10 durch eine neue er-setzt.
+Underfull \hbox (badness 3568) in paragraph at lines 94--95
+\OT1/cmr/m/n/10 des Baus wurde zu-
  []
 
 
-Overfull \hbox (3.92159pt too wide) in paragraph at lines 97--104
-\OT1/cmr/m/n/10 mit []Lab-VIEW er-stellt. Diese
+Underfull \hbox (badness 2253) in paragraph at lines 94--95
+\OT1/cmr/m/n/10 ware, welche fur die
  []
 
 
-Underfull \hbox (badness 2582) in paragraph at lines 97--104
+Underfull \hbox (badness 7116) in paragraph at lines 94--95
+\OT1/cmr/m/n/10 neue er-setzt. Die
+ []
+
+
+Underfull \hbox (badness 1953) in paragraph at lines 94--95
+\OT1/cmr/m/n/10 men Fire Test Com-
+ []
+
+
+Overfull \hbox (0.5496pt too wide) in paragraph at lines 94--95
 \OT1/cmr/m/n/10 Soft-ware hat schon viele
  []
 
+[5 <./SystemviewFTC.png>] <Systemgrenzen.png, id=33, 405.01312pt x 385.44pt>
+File: Systemgrenzen.png Graphic file (type png)
 
-Underfull \hbox (badness 4660) in paragraph at lines 97--104
-\OT1/cmr/m/n/10 Ansatze, welche fur die
+<use Systemgrenzen.png>
+Package pdftex.def Info: Systemgrenzen.png used on input line 99.
+(pdftex.def)             Requested size: 130.70714pt x 124.3902pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]\OT1/cmr/m/n/10 Systemabgrenzung der
  []
 
-
-Underfull \hbox (badness 5637) in paragraph at lines 97--104
-\OT1/cmr/m/n/10 im Rah-men dieses Pro-
- []
-
-
-Underfull \hbox (badness 3029) in paragraph at lines 97--104
-\OT1/cmr/m/n/10 jek-tes zu im-ple-men-tieren-des Pro-gramm ange-wandt und uber
-nommen wer-den
- []
-
-
-Underfull \hbox (badness 1852) in paragraph at lines 97--104
-\OT1/cmr/m/n/10 konnen. Der []FTC bi-etet schon eine Struk-tur, um mit moglic
-hst gerin-gen
- []
-
-
-Underfull \hbox (badness 1484) in paragraph at lines 97--104
-\OT1/cmr/m/n/10 aufwand Hard-warekom-po-nen-ten hinzuzufugen (Siehe Fig-ure 2[
-]). Diese Struk-
- []
-
-
-Underfull \hbox (badness 2469) in paragraph at lines 97--104
-\OT1/cmr/m/n/10 tur, di-ent zu-dem gle-ich als Vor-lage fur die neu zu en-twic
-k-el-nde Soft-ware.
- []
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 10
-4.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 10
-5.
-
-
-Underfull \hbox (badness 3449) in paragraph at lines 106--108
-[]\OT1/cmr/m/n/10 Da die Hard-ware Ab-strak-tion kom-
- []
-
-
-Underfull \hbox (badness 3668) in paragraph at lines 106--108
-\OT1/cmr/m/n/10 plett von der beste-hen-den Soft-ware
- []
-
-
-Underfull \hbox (badness 1590) in paragraph at lines 106--108
-\OT1/cmr/m/n/10 en-twick-elt wer-den. Die Ab-gren-zung
- []
-
-[5 <./SystemviewFTC.png> <./Systemgrenzen.png>]
-Underfull \hbox (badness 5696) in paragraph at lines 109--111
-\OT1/cmr/m/n/10 Aufgrund von Per-for-mance grunden
- []
-
-
-Overfull \hbox (11.53035pt too wide) in paragraph at lines 116--118
-\OT1/cmr/m/n/10 Haupt-pro-grammes wie auch diejeni-gen der Subpanel-Vis senden 
-Mes-sages an die Message-
- []
-
-<filterVI.png, id=28, 225.09094pt x 150.5625pt>
+<filterVI.png, id=34, 225.09094pt x 150.5625pt>
 File: filterVI.png Graphic file (type png)
  <use filterVI.png>
-Package pdftex.def Info: filterVI.png used on input line 124.
+Package pdftex.def Info: filterVI.png used on input line 116.
 (pdftex.def)             Requested size: 112.03387pt x 74.93874pt.
 
-Underfull \hbox (badness 1810) in paragraph at lines 129--130
-[][]\OT1/cmr/m/n/10 Die Im Bild 5[] dargestell-ten Pfeile stellen
+Underfull \hbox (badness 3690) in paragraph at lines 121--123
+\OT1/cmr/m/n/10 Subpanel-Vis wird pro-gram-ma-tisch im Sub-
  []
 
-
-Underfull \hbox (badness 1048) in paragraph at lines 129--130
-\OT1/cmr/m/n/10 oben geschrieben gibt es die Message-Queue,
- []
-
-<LaufzeitansichtMitRecorder.png, id=29, 325.215pt x 214.55156pt>
+<LaufzeitansichtMitRecorder.png, id=35, 325.215pt x 214.55156pt>
 File: LaufzeitansichtMitRecorder.png Graphic file (type png)
 
 <use LaufzeitansichtMitRecorder.png>
-Package pdftex.def Info: LaufzeitansichtMitRecorder.png used on input line 133.
+Package pdftex.def Info: LaufzeitansichtMitRecorder.png used on input line 130.
 
-(pdftex.def)             Requested size: 298.7551pt x 197.10828pt.
- [6 <./filterVI.png>]
-<LauftzeitansichtRecorderNah.png, id=34, 557.83406pt x 569.12625pt>
+(pdftex.def)             Requested size: 186.72122pt x 123.18611pt.
+ [6 <./Systemgrenzen.png> <./filterVI.png>]
+Underfull \hbox (badness 1400) in paragraph at lines 135--136
+[][]\OT1/cmr/m/n/10 Die Im Bild 5[] dargestell-ten Pfeile
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 135--136
+\OT1/cmr/m/n/10 gibt in-s-ge-sammt 2 Moglichkeiten der
+ []
+
+
+Overfull \hbox (6.94576pt too wide) in paragraph at lines 135--136
+\OT1/cmr/m/n/10 Mes-sages an das Haupt-pro-gramm gesendet
+ []
+
+
+Underfull \hbox (badness 5203) in paragraph at lines 135--136
+\OT1/cmr/m/n/10 wer-den konnen. Dieses wiederum
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 135--136
+\OT1/cmr/m/n/10 gestrichel-ten Pfeilen dargestellt) kom-
+ []
+
+<LauftzeitansichtRecorderNah.png, id=40, 557.83406pt x 569.12625pt>
 File: LauftzeitansichtRecorderNah.png Graphic file (type png)
 
 <use LauftzeitansichtRecorderNah.png>
-Package pdftex.def Info: LauftzeitansichtRecorderNah.png used on input line 140
+Package pdftex.def Info: LauftzeitansichtRecorderNah.png used on input line 139
 .
 (pdftex.def)             Requested size: 108.29579pt x 110.48851pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 []\OT1/cmr/m/n/10 Kommunikation Main
  []
 
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 14
-5.
+4.
 
 [7 <./LaufzeitansichtMitRecorder.png> <./LauftzeitansichtRecorderNah.png>]
-<DBShemaEasy2.png, id=40, 563.85657pt x 685.8122pt>
+<DBShemaEasy2.png, id=46, 563.85657pt x 685.8122pt>
 File: DBShemaEasy2.png Graphic file (type png)
  <use DBShemaEasy2.png>
-Package pdftex.def Info: DBShemaEasy2.png used on input line 154.
+Package pdftex.def Info: DBShemaEasy2.png used on input line 153.
 (pdftex.def)             Requested size: 205.39449pt x 249.8223pt.
 
-Underfull \hbox (badness 2165) in paragraph at lines 160--161
+Underfull \hbox (badness 2165) in paragraph at lines 159--160
 []\OT1/cmr/m/n/10 Da wie schon erwahnt Soft-
  []
 
 
-Underfull \hbox (badness 6220) in paragraph at lines 160--161
+Underfull \hbox (badness 6220) in paragraph at lines 159--160
 \OT1/cmr/m/n/10 ten zu gewahrleisten wurde
  []
 
 
-Underfull \hbox (badness 3769) in paragraph at lines 163--164
+Underfull \hbox (badness 3769) in paragraph at lines 162--163
 \OT1/cmr/m/n/10 zusam-men-gelegt. Die Blau
  []
 
 
-Underfull \hbox (badness 3977) in paragraph at lines 163--164
+Underfull \hbox (badness 3977) in paragraph at lines 162--163
 \OT1/cmr/m/n/10 ist. An diesen Physikalis-
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 163--164
+Underfull \hbox (badness 1237) in paragraph at lines 162--163
 \OT1/cmr/m/n/10 chen Kanal sind die Meldee-
  []
 
 [8 <./DBShemaEasy2.png>]
-Underfull \hbox (badness 6510) in paragraph at lines 178--178
+Underfull \hbox (badness 6510) in paragraph at lines 177--177
 []\OT1/cmr/m/n/10 DB-Erstellen (In-stal-lieren und DB
  []
 
 
-Underfull \hbox (badness 7613) in paragraph at lines 184--184
+Underfull \hbox (badness 7613) in paragraph at lines 183--183
 []\OT1/cmr/m/n/10 Recorder Im-ple-men-ta-tion (Kom-mu-
  []
 
 
-Underfull \hbox (badness 7221) in paragraph at lines 186--186
+Underfull \hbox (badness 7221) in paragraph at lines 185--185
 []\OT1/cmr/m/n/10 Graph Screen In-be-trieb-nahme mit
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 187--187
+Underfull \hbox (badness 1117) in paragraph at lines 186--186
 []\OT1/cmr/m/n/10 Fertigstellung des Soft-ware Skelettes
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 189--189
+Underfull \hbox (badness 1178) in paragraph at lines 188--188
 []\OT1/cmr/m/n/10 Inbetriebnahme (Ge-brauch der Soft-
  []
 
-[9]
-Overfull \hbox (1.86365pt too wide) in paragraph at lines 200--201
-[]\OT1/cmr/m/n/10 Weiter hatte ich einige Schwierigkeiten, bis ich das Aufze-ic
-h-nen der Daten hingekriegt
- []
-
-[10] (enddoku.gls) (enddoku.acr) [11] (enddoku.aux)
+[9] [10] (enddoku.gls) (enddoku.acr) [11] (enddoku.aux)
 Package logreq Info: Writing requests to 'enddoku.run.xml'.
 \openout1 = `enddoku.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14856 strings out of 493328
- 252994 string characters out of 3143452
- 817847 words of memory out of 3000000
- 18155 multiletter control sequences out of 15000+200000
- 7835 words of font info for 29 fonts, out of 3000000 for 9000
+ 14877 strings out of 493328
+ 253199 string characters out of 3143452
+ 819847 words of memory out of 3000000
+ 18167 multiletter control sequences out of 15000+200000
+ 10929 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,9n,51p,8847b,1154s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,9n,58p,8847b,1455s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Program/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Program/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/Program/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmr10.pfb><D:/Program/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-r12.pfb><D:/Program/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/Prog
-ram/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmti10.pfb><D:/Program/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmtt10.pfb>
-Output written on enddoku.pdf (11 pages, 347358 bytes).
+r12.pfb><D:/Program/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Program/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Program/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb><D:/Program/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+ssbx10.pfb><D:/Program/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Pro
+gram/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/Program/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmti8.pfb><D:/Program/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmtt10.pfb><D:/Program/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on enddoku.pdf (11 pages, 397271 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
+ 102 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
