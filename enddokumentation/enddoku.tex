@@ -34,13 +34,13 @@ Die Siemens AG ist ein führender internationaler Technologiekonzern, der seit m
 \subsection{Projektkontext}
 Die Firma Siemens BT im Bereich fire safety in Zug ist zuständig für die Entwicklung von Brandmeldern.
 Um die Qualität der Brandmelder zu gewährleisten, werden diese unter Zuhilfenahme
-verschiedener Apparaturen und Testaufbauten getestet. Dies geschieht bei grösseren Aufbauten automatisch und mit konsistenter Aufzeichnung der Daten, welche der Melder und etwaige Referenz-Geräte erzeugen. Oftmals gibt es jedoch individuelle und den unterschiedlichsten Aufgabestellungen folgende Labor Aufbauten, bei welchen die Aufzeichnung nur unter grossen Anstrengungen der Arbeitenden auswertbare Ergebnisse liefern.
+verschiedener Apparaturen und Testaufbauten getestet. Dies geschieht bei grösseren Aufbauten automatisch und mit konsistenter Aufzeichnung der Daten, welche der Melder und etwaige Referenz-Geräte erzeugen. Oftmals gibt es jedoch individuelle und den unterschiedlichsten Aufgabestellungen folgende Laboraufbauten, bei welchen die Aufzeichnung nur unter grossen Anstrengungen der Arbeitenden auswertbare Ergebnisse liefern.
 \subsection{Projektziele}
-Das Hauptziel des Projektinhaltes ist es mögliche Verbesserungen sowie Ansprüche für die vielen kleinen und individuellen aufbauten zu finden und auszuschöpfen. Das heisst, die an verschiedenen Arbeitsplätze zu findende individuellen Aufbauten sowie deren Software Umgebung, sollen durch eine universelle, gemeinsam Nutzbare und flexible Datenerfassungslösung ersetzt werden.
+Das Hauptziel des Projektinhaltes ist es, mögliche Verbesserungen sowie Ansprüche für die vielen kleinen und individuellen aufbauten zu finden und auszuschöpfen. Das heisst, die an verschiedenen Arbeitsplätze zu findende individuellen Aufbauten sowie deren Software Umgebung, sollen durch eine universelle, gemeinsam Nutzbare und flexible Datenerfassungslösung ersetzt werden.
 
-Weiter ist es das Ziel, dass der Endanwender eine Möglichkeit bekommt in einem vernünftigem Zeitrahmen eine Auswertbare Datei zu erhalten.
+Weiter ist es das Ziel, dass der Endanwender eine Möglichkeit bekommt in einem vernünftigem Zeitrahmen eine auswertbare Datei zu erhalten.
 
-Eine weitere Herausforderung stellt die Erneuerung von EN und UL-Normen dar, nach welchen alle Produkte und Melder nach veränderten Ansprüche getestet und geprüft werden müssen. Da Siemens BT fire safety bis anhin die zukünftig Inkrafttreten Anforderungen noch nicht in einem Optimierten Prozess Testen konnte, wurde ein neuer Testaufbau bestellt, bei welchem diese Optimierungen mit zum Zuge kommen. Es soll erreicht werden, dass die zu erstellende Testsoftware gemäss den zeitlichen Ansprüchen der Produktentwicklung Projekte rechtzeitig mit dem neuen Testaufbau in Betrieb genommen werden kann.
+Eine weitere Herausforderung stellt die Erneuerung von EN und UL-Normen dar, nach welchen alle Produkte und Melder nach veränderten Ansprüche getestet und geprüft werden müssen. Da Siemens BT fire safety bis anhin die zukünftig Inkrafttreten Anforderungen noch nicht in einem optimierten Prozess testen konnte, wurde ein neuer Testaufbau bestellt, bei welchem diese Optimierungen mit zum Zuge kommen. Es soll erreicht werden, dass die zu erstellende Testsoftware gemäss den zeitlichen Ansprüchen der Produktentwicklungs Projekte rechtzeitig mit dem neuen Testaufbau in Betrieb genommen werden kann.
 \section{Projektergebnisse}
 \subsection{Ergebnisse}
 Die folgenden Ergebnisse müssen im Rahmen dieses Projektes erarbeitet werden:
@@ -53,17 +53,18 @@ Die folgenden Ergebnisse müssen im Rahmen dieses Projektes erarbeitet werden:
 \end{itemize}
 \subsection{Anforderungen}
 Die Folgenden Punkte muss die Software Erfüllen.
-\begin{itemize}
+\begin{enumerate}
 	\item Name des neuen Programmes ist "\textbf{U}niversal \textbf{d}ata \textbf{a}cquisition" \acrshort{uda}
 	\item Das Programm muss auf Win7, 8.1, ... laufen.
 	\item Modularer Aufbau
-	\item Alle angaben sollen auf Ihre Plausibilität überprüft werden.
+	\item Alle eingaben sollen auf Ihre Plausibilität überprüft werden.
+	\item Es soll in einem gleich bleibenden Intervall aufgezeichnet werden können.
 	\item Bei Falschen, und undefinierten "Objekten" sollen Fehlermeldungen mit Angabe der Fehlerquelle aufgelistet werden.
 	\item Programmeinstellungen sollen in einer ini-Datei gespeichert werden.
 	\item Die Installation soll mit einem Installer geschehen.
 	\item Bestehende Funktionalitäten sollen übernommen werden.
 	\item Die Software muss in \gls{LabVIEW} geschrieben werden.
-\end{itemize}
+\end{enumerate}
 \section{Umsetzung}
 \subsection{Verwendete Tools}
 Für die Entwicklung wurde folgende Software verwendet:
@@ -84,11 +85,11 @@ Für die Entwicklung wurde folgende Software verwendet:
 		\label{fig:LabViewExample}
 	\end{center}
 \end{wrapfigure}
-\gls{LabVIEW} ist eine grafische Programmiersprache, welche von National Instruments entwickelt wird. Die Funktionsweise von \gls{LabVIEW} ist zudem sehr speziell, da es Funktionsblöcke gib, welche Virtuelle Instrumente (\gls{VI}s) bezeichnet werden. Man kann sich die \gls{VI}s als Funktionen oder Methoden vorstellen. Sie besitzen immer ein \gls{Frontpanel} sowie ein \gls{Blockdiagramm}, in welchem auch der Code zu finden ist (Siehe Figure \ref{fig:LabViewExample}). Zudem unterstützt \gls{LabVIEW} seit geraumer Zeit Objektorientiertes Programmieren, dies jedoch nur unzulässig und sehr eingeschränkt.
+\gls{LabVIEW} ist eine grafische Programmiersprache, welche von National Instruments entwickelt wird. Die Funktionsweise von \gls{LabVIEW} ist zudem sehr speziell, da es Funktionsblöcke gibt, welche als Virtuelle Instrumente (\gls{VI}s) bezeichnet werden. Man kann sich die \gls{VI}s als Funktionen oder Methoden vorstellen. Sie besitzen immer ein \gls{Frontpanel} sowie ein \gls{Blockdiagramm}, in welchem auch der Code zu finden ist (Siehe Figure \ref{fig:LabViewExample}). Zudem unterstützt \gls{LabVIEW} seit geraumer zeit Objektorientiertes Programmieren, dies jedoch nur unzulässig und sehr eingeschränkt.
 \newline
-Die mangelden fähigkeit zu Objektorientierter Programmierung, fürt zu dem Umstand, dass an machen orten mit einer anderen Art und Weise angegangen werden muss, wie man es sich von Objektorientierten Programmieren gewohnt ist. Zudem sind \gls{LabVIEW} Programme nicht sonderlich schnell, weshalb besonders stark auf die Performance zu achten ist.
+Die mangelnden Fähigkeit zu Objektorientierter Programmierung, führt zu dem Umstand, dass an manchen Orten mit einer anderen Art und Weise angegangen werden muss, wie man es sich von Objektorientierten Programmieren gewohnt ist. Zudem sind \gls{LabVIEW} Programme nicht sonderlich schnell, weshalb besonders stark auf die Performance zu achten ist.
 \newline
-Eine weitere Sonderheit ist die Verknüpfung von GUIs mit dem Programm, es besteht eine sehr starke verknüpfung zwischen der funktion und dem GUI.Dies bietet einige Vor- wie auch Nachteile. So wird in diesem Projekt stark mit \gls{Subpanel}s gearbeitet, welches die Möglichkeit liefert dynamisch GUIs von anderen\gls{VI}s in das laufende Programm einzubinden.  \footfullcite{website:labView} 
+Eine weitere Sonderheit ist die Verknüpfung von GUIs mit dem Programm, es besteht eine sehr starke Verknüpfung zwischen der Funktion und dem GUI. Dies bietet einige Vor- wie auch Nachteile. So wird in diesem Projekt stark mit \gls{Subpanel}s gearbeitet, welches die Möglichkeit liefert dynamisch GUIs von anderen\gls{VI}s in das laufende Programm einzubinden.  \footfullcite{website:labView} 
 
 
 \subsection{Software}
@@ -100,7 +101,7 @@ Eine weitere Sonderheit ist die Verknüpfung von GUIs mit dem Programm, es beste
 	\end{center}
 \end{wrapfigure}
 \subsubsection{Bestehende Software}
-Im Rahmen des Umzuges der Testabteilung, wurden die Brandräume neu gebaut. Während des Baus wurde zudem die veraltete Software, welche für die Alten Brandräume erstellt wurde, durch eine neue ersetzt. Die neu erstellte Software, welche unter dem Namen Fire Test Commander fortan nur noch \acrshort{ftc}, wurde mit \gls{LabVIEW} erstellt. Diese Software hat schon viele Ansätze, welche für die im Rahmen dieses Projektes zu implementierendes Programm angewandt und übernommen werden können. Der \acrshort{ftc} bietet schon eine Struktur, um mit möglichst geringen aufwand Hardwarekomponenten hinzuzufügen (Siehe Figure \ref{fig:SystemViewFTC}). Diese Struktur, dient zudem gleich als Vorlage für die neu zu entwickelnde Software.
+Im Rahmen des Umzuges der Testabteilung, wurden die Brandräume neu gebaut. Während des Baus dieser Brandräume wurde zudem die veraltete Software, welche für die alten Brandräume erstellt wurde, durch eine neue ersetzt. Die neu erstellte Software, welche unter dem Namen Fire Test Commander fortan nur noch \acrshort{ftc} genannt, wurde mit \gls{LabVIEW} erstellt. Diese Software hat schon viele Ansätze, welche für die im Rahmen dieses Projektes zu implementierendes Programm angewandt und übernommen werden können. Der \acrshort{ftc} bietet schon eine Struktur, um mit möglichst geringen aufwand Hardwarekomponenten hinzuzufügen (Siehe Figure \ref{fig:SystemViewFTC}). Diese Struktur, dient zudem gleich als Vorlage für die neu zu entwickelnde Software.
 \newpage
 \subsubsection{Systemgrenzen}
 \begin{wrapfigure}{r}{0.4\textwidth}
@@ -113,7 +114,9 @@ Im Rahmen des Umzuges der Testabteilung, wurden die Brandräume neu gebaut. Wäh
 Da die Hardware Abstraktion komplett von der bestehenden Software übernommen werden kann, fällt diese aus dem Projekt heraus. Nur die UDA selber, soll als eigenständige Software entwickelt werden. Die Abgrenzung des Systemes kann in folgender Abbildung (Figure \ref{fig:SystemView}) nachvollzogen werden.
  Die Datenbank ist eine MySQL Datenbank, welche mithilfe des ODBC ANSII Treibers Angesprochen werden kann. Die Schnittstelle wird von \gls{LabVIEW} zur Verfügung gestellt und musste auch nicht selber Implementiert werden.
 \subsubsection{Komponente UDA}
-Aufgrund von Performance gründen wurde die Software mit vielen verschiedenen Task ausgestattet. So ist jede GUI Komponente, welche auf dem Hauptprogramm aufrufbar ist ein eigener Thread,  welchen ihren eigenen Event-Handler besitzt. Die Gui Komponenten werden zur entsprechenden Zeit dynamisch in der Hauptkomponente als Subkomponenten geladen. Diese Komplexe Thread Struktur wird im Bild \ref{fig:LaufzeitansichtUDA} dargestellt. Diese Software struktur basiert auf dem Queued Message Handler Template von National Instruments.
+Aufgrund von Performance gründen wurde die Software mit vielen verschiedenen Task ausgestattet. So ist jede GUI Komponente, welche auf dem Hauptprogramm aufrufbar ist ein eigener Thread,  welcher seinen eigenen Event-Handler besitzt. Die GUI Komponenten werden zur entsprechenden Zeit dynamisch ins Hauptprogramm als Subpanels geladen. Diese komplexe Thread Struktur wird im Bild \ref{fig:LaufzeitansichtUDA} dargestellt.
+
+Diese Software Struktur basiert auf dem Queued Message Handler Template von National Instruments.
 Das Hauptprogramm (Main) besteht aus zwei parallelen Tasks
 \begin{itemize}
 	\item dem Event-Handler, der primär auf Eingaben vom Anwender reagiert
@@ -127,7 +130,7 @@ Das Hauptprogramm (Main) besteht aus zwei parallelen Tasks
 		\label{fig:filterVI}
 	\end{center}
 \end{wrapfigure}
-Die Bedienoberfläche umfasst vier Subpanel-Vis. Diese werden im Hauptprogramm aufgerufen und laufen parallel zu den beiden Tasks des Hauptprogrammes. Das \gls{Frontpanel} eines dieser Subpanel-Vis wird programmatisch im Subpanel des Hauptprogrammes sichtbar gemacht.  
+Die Bedienoberfläche umfasst vier Subpanel-VIs. Diese werden im Hauptprogramm aufgerufen und laufen parallel zu den beiden Tasks des Hauptprogrammes. Das \gls{Frontpanel} eines dieser Subpanel-Vis wird programmatisch im Subpanel des Hauptprogrammes sichtbar gemacht.  
 Jedes dieser Subpanel-Vis besitzt einen eigenen Event-Handler der auf Eingaben des Anwenders reagiert. Sowohl der Event-Handler des Hauptprogrammes wie auch diejenigen der Subpanel-Vis senden Messages an die Message-Queue der Verarbeitungstask im Hauptprogramm (In der Abbildung \ref{fig:LaufzeitansichtUDA} mit grünen durchgezogenen Pfeilen dargestellt).
 
 
