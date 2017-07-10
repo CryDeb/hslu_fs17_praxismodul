@@ -13,7 +13,7 @@
 \makeglossaries
 \input{glossary/glossary.tex}
 
-\addbibresource{sample.bib}
+\addbibresource{bib/myBib.bib}
 \author{Dane Wicki}
 \title{Universal data acquisition}
 \subtitle{FS17 Praxismodul}
@@ -82,7 +82,7 @@ Für die Entwicklung wurden folgenden Komponenten verwendet:
 \subsubsection{LabView}
 \begin{wrapfigure}{r}{0.7\textwidth}
 	\begin{center}
-		\includegraphics[width=0.6\textwidth]{LabVIEWExample}
+		\includegraphics[width=0.6\textwidth]{pictures/LabVIEWExample}
 		\caption{Beispiel LabView\gls{VI} mit Beschreibung}
 		\label{fig:LabViewExample}
 	\end{center}
@@ -97,7 +97,7 @@ Eine weitere Sonderheit ist die Verknüpfung von GUIs mit dem Programm. Es beste
 \subsection{Software}
 \begin{wrapfigure}{l}{0.7\textwidth}
 	\begin{center}
-		\includegraphics[width=0.65\textwidth]{SystemviewFTC}
+		\includegraphics[width=0.65\textwidth]{pictures/SystemviewFTC}
 		\caption{Systemview des Fire Test Commander}
 		\label{fig:SystemViewFTC}
 	\end{center}
@@ -108,7 +108,7 @@ Im Rahmen des Umzuges der Testabteilung wurden die Brandräume neu gebaut. Währ
 \subsubsection{Systemgrenzen}
 \begin{wrapfigure}{r}{0.4\textwidth}
 	\begin{center}
-		\includegraphics[width=0.35\textwidth]{Systemgrenzen}
+		\includegraphics[width=0.35\textwidth]{pictures/Systemgrenzen}
 		\caption{Systemabgrenzung der einzelnen Komponenten}
 		\label{fig:SystemView}			
 	\end{center}
@@ -127,7 +127,7 @@ Das Hauptprogramm (Main) besteht aus zwei parallelen Tasks:
 
 \begin{wrapfigure}{r}{0.4\textwidth}
 	\begin{center}
-		\includegraphics[width=0.3\textwidth]{filterVI}
+		\includegraphics[width=0.3\textwidth]{pictures/filterVI}
 		\caption{Aufruf des FilterVIs}
 		\label{fig:filterVI}
 	\end{center}
@@ -141,7 +141,7 @@ Jedes dieser Subpanel-Vis besitzt einen eigenen Event-Handler der auf Eingaben d
 
 \begin{wrapfigure}{l}{0.5\textwidth}
 	\begin{center}
-		\includegraphics[width=0.5\textwidth]{LaufzeitansichtMitRecorder}
+		\includegraphics[width=0.5\textwidth]{pictures/LaufzeitansichtMitRecorder}
 		\caption{Laufzeitansicht der GUI Tasks und deren Kommunikation}
 		\label{fig:LaufzeitansichtUDA}
 	\end{center}
@@ -150,7 +150,7 @@ Die im Bild \ref{fig:LaufzeitansichtUDA} dargestellten Pfeile stellen die Kommun
 
 \begin{wrapfigure}{r}{0.4\textwidth}
 	\begin{center}
-		\includegraphics[width=0.29\textwidth]{LauftzeitansichtRecorderNah}
+		\includegraphics[width=0.29\textwidth]{pictures/LauftzeitansichtRecorderNah}
 		\caption{Kommunikation Main mit Recorder}
 		\label{fig:LauftzeitansichtRecorder}
 	\end{center}
@@ -162,9 +162,9 @@ Die Umsetztung setzte voraus, dass das Aufzeichnen aller Daten in einem immer gl
 \subsubsection{Bestehende Datenbank}
 Mit der Implementierung der FTC Software wurde auch eine eigens dafür entwickelte Datenbank aufgebaut. Diese ist an sich enorm Komplex und sehr verstrickt, weshalb hier nicht viel näher auf diese eingegangen wird.
 \subsubsection{Datenbank}
-\begin{wrapfigure}{r}{0.50\textwidth}
+\begin{wrapfigure}{r}{0.480\textwidth}
 	\begin{center}
-		\includegraphics[width=0.48\textwidth]{DBShemaEasy2.png}
+		\includegraphics[width=0.44\textwidth]{pictures/DBShemaEasy2}
 		\caption{Vereinfachtes DB-Schema für die UDA}
 		\label{fig:DBSchemaUDA}
 	\end{center}

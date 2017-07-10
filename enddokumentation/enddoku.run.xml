@@ -80,7 +80,7 @@
       <file>enddoku.bcf</file>
     </requires>
     <requires type="editable">
-      <file>sample.bib</file>
+      <file>bib/myBib.bib</file>
     </requires>
   </external>
 </requests>
