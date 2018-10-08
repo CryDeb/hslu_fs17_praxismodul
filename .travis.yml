@@ -10,7 +10,7 @@ addons:
 script:
   - cd enddokumentation
   - pdflatex -interaction=nonstopmode -halt-on-error *.tex
-  - biber enddokumentation/*.bcf
+  - biber *.bcf
   - pdflatex -interaction=nonstopmode -halt-on-error *.tex
 deploy:
   provider: releases
